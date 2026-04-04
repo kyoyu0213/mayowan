@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(curl -s -X POST http://localhost:3000/api/recommend -H \"Content-Type: application/json\" -d '{\"age\":\"5\",\"gender\":\"male\",\"budget\":\"5000\",\"exclude\":[]}')",
+      "Bash(NODE_OPTIONS=\"--max-old-space-size=512\" npm run dev)"
+    ]
+  }
+}
