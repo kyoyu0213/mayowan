@@ -139,7 +139,7 @@ export default function Mayowan() {
     setLoadingMore(false);
   }
 
-  const amazonUrl = (q) => `https://www.amazon.co.jp/s?k=${encodeURIComponent(q)}&tag=YOUR_TAG`;
+  const amazonUrl = (q) => `https://www.amazon.co.jp/s?k=${encodeURIComponent(q)}&tag=korekae02-22`;
   const rakutenUrl = (q) => `https://hb.afl.rakuten.co.jp/hgc/51bca08c.4386ed49.51bca08d.8a172c50/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${encodeURIComponent(q)}%2F`;
 
   return (
