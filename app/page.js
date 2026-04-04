@@ -185,7 +185,7 @@ export default function Mayowan() {
             <Mascot size={140} />
           </div>
           <p style={{ fontSize: 13, fontWeight: 600, letterSpacing: 4, marginTop: 12, color: "#A09080" }}>
-            AIプレゼント提案サービス
+            プレゼント提案サービス
           </p>
           <div style={{ margin: "16px auto" }}><Ribbon /></div>
           <p style={{ fontSize: 18, lineHeight: 2, fontWeight: 500, maxWidth: 340, margin: "0 auto", color: "#E8DDD0" }}>
@@ -193,7 +193,7 @@ export default function Mayowan() {
             <span style={{ fontWeight: 800, background: "linear-gradient(135deg, #E8C468, #D4AF69)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>喜ばれるプレゼント</span>が見つかります。
           </p>
           <p style={{ fontSize: 13, color: "#8A7E72", marginTop: 10 }}>
-            お孫さんやお子さんへの贈り物、もう迷いません。
+            お孫さんに"ありがとう"って言ってもらえる贈り物を。
           </p>
         </div>
       </header>
@@ -291,7 +291,7 @@ export default function Mayowan() {
                 WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text",
               }}>SPECIAL PICKS FOR YOU</p>
               <p style={{ fontSize: 24, fontWeight: 900, marginTop: 8, color: "#F5EDE4" }}>あなたへのおすすめ</p>
-              <p style={{ fontSize: 13, color: "#8A7E72", marginTop: 8 }}>AIがあなたの条件にぴったりの贈り物を選びました</p>
+              <p style={{ fontSize: 13, color: "#8A7E72", marginTop: 8 }}>あなたの条件にぴったりの贈り物を選びました</p>
             </div>
 
             {results.map((item, i) => (
@@ -362,10 +362,18 @@ export default function Mayowan() {
         )}
       </main>
 
+      <div style={{ textAlign: "center", padding: "32px 20px", maxWidth: 500, margin: "0 auto" }}>
+        <img src="/mayowan_mascot.png" alt="" width={48} height={48} style={{ borderRadius: "50%", marginBottom: 12 }} />
+        <p style={{ fontSize: 14, fontWeight: 700, color: "#D4C4B0" }}>子供向け商品の開発経験を持つプロが監修</p>
+        <p style={{ fontSize: 12, color: "#8A7E72", marginTop: 6, lineHeight: 1.8 }}>
+          子供向け商品の企画開発に携わり、子供が本当に喜ぶものを研究してきた専門家が提案内容を監修しています。
+        </p>
+      </div>
+
       <footer style={{ textAlign: "center", padding: "28px 20px 36px", borderTop: "1px solid #2A2018", fontSize: 12, color: "#5A5048", lineHeight: 2 }}>
-        <p>※ 提案内容はAIが生成したものです。在庫・価格は各サイトでご確認ください。</p>
+        <p>※ 提案内容は自動生成です。在庫・価格は各サイトでご確認ください。</p>
         <p>※ Amazon.co.jpアソシエイト / 楽天アフィリエイト</p>
-        <p style={{ marginTop: 8, fontSize: 11, opacity: 0.5 }}>© まよわん — AIプレゼント提案サービス</p>
+        <p style={{ marginTop: 8, fontSize: 11, opacity: 0.5 }}>© まよわん — プレゼント提案サービス</p>
       </footer>
     </div>
   );
