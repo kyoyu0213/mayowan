@@ -260,7 +260,7 @@ export default function Mayowan() {
           <div style={{ textAlign: "center", padding: "48px 20px", position: "relative" }}>
             <Sparkles />
             <div style={{ animation: "mascotBounce 1.5s ease-in-out infinite", position: "relative", zIndex: 1 }}>
-              <Mascot size={120} />
+              <img src="/mayowan2.png" alt="まよわん" width={120} height={120} style={{ display: "block", margin: "0 auto" }} />
             </div>
             <p style={{ fontSize: 18, fontWeight: 700, color: "#E8DDD0", marginTop: 16, position: "relative", zIndex: 1 }}>
               ぴったりのプレゼントを探しています<Dots />
@@ -284,7 +284,7 @@ export default function Mayowan() {
           <div ref={resRef} style={{ marginTop: 44, position: "relative" }}>
             <Sparkles />
             <div style={{ textAlign: "center", marginBottom: 32, position: "relative", zIndex: 1 }}>
-              <Mascot size={80} />
+              <img src="/mayowan3.png" alt="まよわん" width={80} height={80} style={{ display: "block", margin: "0 auto" }} />
               <p style={{
                 fontSize: 13, fontWeight: 700, letterSpacing: 4, marginTop: 12,
                 background: "linear-gradient(135deg, #E8C468, #D4AF69)",
@@ -337,7 +337,7 @@ export default function Mayowan() {
             {loadingMore ? (
               <div style={{ textAlign: "center", padding: "24px 0" }}>
                 <div style={{ animation: "mascotBounce 1.5s ease-in-out infinite", display: "inline-block" }}>
-                  <Mascot size={56} />
+                  <img src="/mayowan2.png" alt="まよわん" width={56} height={56} style={{ display: "block", margin: "0 auto" }} />
                 </div>
                 <p style={{ fontSize: 14, color: "#8A7E72", marginTop: 8 }}>もっと探しています<Dots /></p>
               </div>
