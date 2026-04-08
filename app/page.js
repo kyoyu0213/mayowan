@@ -342,7 +342,7 @@ export default function Mayowan() {
 
       {/* Trust section */}
       <div style={{ textAlign: "center", padding: "28px 20px", maxWidth: 520, margin: "0 auto", borderTop: "1px solid #EDE6D6" }}>
-        <img src="/mayowan_mascot.png" alt="" width={44} height={44} style={{ borderRadius: "50%", marginBottom: 10, border: "2px solid #EDE6D6" }} />
+        <img src="/akane.png" alt="" width={44} height={44} style={{ borderRadius: "50%", marginBottom: 10, border: "2px solid #EDE6D6" }} />
         <p style={{ fontSize: 15, fontWeight: 700, color: "#2C2410" }}>子供向け商品の開発経験を持つプロが監修</p>
         <p style={{ fontSize: 13, color: "#7A6C50", marginTop: 6, lineHeight: 1.8 }}>
           子供向け商品の企画開発に携わり、子供が本当に喜ぶものを研究してきた専門家が提案内容を監修しています。
