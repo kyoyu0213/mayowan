@@ -1,0 +1,512 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - heading "キーボードショートカットを表示するには、はてなマークを押してください。 キーボードショートカットを表示" [level=2] [ref=e3]:
+          - generic [ref=e4]: キーボードショートカットを表示するには、はてなマークを押してください。
+          - link "キーボードショートカットを表示" [ref=e5] [cursor=pointer]:
+            - /url: /i/keyboard_shortcuts
+        - generic [ref=e6]:
+          - button "ホームタイムラインに移動" [ref=e1958] [cursor=pointer]
+          - button "トレンドに移動" [ref=e1960] [cursor=pointer]
+          - banner [ref=e11]:
+            - generic [ref=e13]:
+              - generic [ref=e14]:
+                - heading "X" [level=1] [ref=e16] [cursor=pointer]:
+                  - link "X" [ref=e17]:
+                    - /url: /home
+                    - img [ref=e19]
+                - navigation "メインメニュー" [ref=e23]:
+                  - link "ホーム" [ref=e24] [cursor=pointer]:
+                    - /url: /home
+                    - img [ref=e983]
+                  - link "調べたいものを検索" [ref=e30] [cursor=pointer]:
+                    - /url: /explore
+                    - img [ref=e986]
+                  - link "通知" [ref=e36] [cursor=pointer]:
+                    - /url: /notifications
+                    - img [ref=e39]
+                  - link "フォローする" [ref=e42] [cursor=pointer]:
+                    - /url: /i/connect_people
+                    - img [ref=e45]
+                  - link "ダイレクトメッセージ" [ref=e48] [cursor=pointer]:
+                    - /url: /i/chat
+                    - img [ref=e51]
+                  - link "Grok" [ref=e54] [cursor=pointer]:
+                    - /url: /i/grok
+                    - generic [ref=e56]:
+                      - img [ref=e57]
+                      - generic "undefined件の未読項目" [ref=e60]
+                  - link "ブックマーク" [ref=e61] [cursor=pointer]:
+                    - /url: /i/bookmarks
+                    - img [ref=e64]
+                  - link "クリエイタースタジオ" [ref=e67] [cursor=pointer]:
+                    - /url: /i/jf/creators/studio
+                    - img [ref=e70]
+                  - link "プレミアム" [ref=e73] [cursor=pointer]:
+                    - /url: /i/premium_sign_up
+                    - img [ref=e76]
+                  - link "プロフィール" [ref=e79] [cursor=pointer]:
+                    - /url: /mamagori002
+                    - img [ref=e82]
+                  - button "その他のメニュー項目" [ref=e85] [cursor=pointer]:
+                    - img [ref=e88]
+                - link "ポストする" [ref=e92] [cursor=pointer]:
+                  - /url: /compose/post
+                  - img [ref=e94]
+              - button "アカウントメニュー" [ref=e99] [cursor=pointer]:
+                - generic [ref=e107]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "怪盗ダンディー":
+                          - img "怪盗ダンディー"
+          - main [ref=e110]:
+            - generic "ホームタイムライン" [ref=e1965]:
+              - generic [ref=e1966]:
+                - generic [ref=e1967]:
+                  - generic [ref=e1972]:
+                    - button "戻る" [ref=e1974] [cursor=pointer]:
+                      - img [ref=e1976]
+                    - search "検索" [ref=e1984]:
+                      - generic [ref=e1989]:
+                        - img [ref=e1991]
+                        - combobox "検索クエリ" [ref=e1996]: AI ニュース
+                    - button "もっと見る" [ref=e1998] [cursor=pointer]:
+                      - img [ref=e2000]
+                  - navigation [ref=e2004]:
+                    - generic [ref=e2005]:
+                      - generic:
+                        - button "前" [disabled]:
+                          - generic:
+                            - img
+                      - tablist [ref=e2007]:
+                        - tab "話題のポスト" [selected] [ref=e2008] [cursor=pointer]:
+                          - generic [ref=e2011]: 話題のポスト
+                        - tab "最新" [ref=e2013] [cursor=pointer]:
+                          - generic [ref=e2016]: 最新
+                        - tab "アカウント" [ref=e2017] [cursor=pointer]:
+                          - generic [ref=e2020]: アカウント
+                        - tab "メディア" [ref=e2021] [cursor=pointer]:
+                          - generic [ref=e2024]: メディア
+                        - tab "リスト" [ref=e2025] [cursor=pointer]:
+                          - generic [ref=e2028]: リスト
+                      - generic:
+                        - button "次へ" [disabled]:
+                          - generic:
+                            - img
+                - generic:
+                  - generic:
+                    - status:
+                      - button:
+                        - generic:
+                          - img
+                          - generic: 新しいポストを表示
+              - region "タイムラインを検索" [ref=e2030]:
+                - heading "タイムラインを検索" [level=1] [ref=e2031]
+                - 'generic "タイムライン: タイムラインを検索" [ref=e2032]':
+                  - generic [ref=e2033]:
+                    - heading "ユーザー" [level=2] [ref=e2038]:
+                      - generic [ref=e2039]: ユーザー
+                    - button "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》 認証済みアカウント @masahirochaen フォロー @masahirochaen Xで一番分かりやすく最速でAI情報発信 | 法人向け AI開発・研修 | 1年で400社 3万人 日本No.1 | GMO他複数上場企業顧問 | テレビ出演多数 | Gemini AI アドバイザー | 年間登壇150件以上｜Youtube4万人｜ tr.ee/youtube-ai｜AI業界最速上場へ準備中" [ref=e2043] [cursor=pointer]:
+                      - generic [ref=e2044]:
+                        - link [ref=e2054]:
+                          - /url: /masahirochaen
+                        - generic [ref=e2057]:
+                          - generic [ref=e2058]:
+                            - generic [ref=e2060]:
+                              - link "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》 認証済みアカウント" [ref=e2062]:
+                                - /url: /masahirochaen
+                                - generic [ref=e2063]:
+                                  - generic [ref=e2065]:
+                                    - text: チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信
+                                    - img "⚡️" [ref=e2066]
+                                    - text: 》
+                                  - img "認証済みアカウント" [ref=e2069]
+                              - link "@masahirochaen" [ref=e2074]:
+                                - /url: /masahirochaen
+                                - generic [ref=e2076]: "@masahirochaen"
+                            - button "フォロー @masahirochaen" [ref=e2078]:
+                              - generic [ref=e2081]: フォロー
+                          - generic [ref=e2082]:
+                            - text: Xで一番分かりやすく最速でAI情報発信 | 法人向け AI開発・研修 | 1年で400社 3万人 日本No.1 | GMO他複数上場企業顧問 | テレビ出演多数 | Gemini AI アドバイザー | 年間登壇150件以上｜Youtube4万人｜
+                            - link "tr.ee/youtube-ai" [ref=e2083]:
+                              - /url: https://t.co/bU7rVyHaQm
+                            - text: ｜AI業界最速上場へ準備中
+                    - 'button "AI 人工知能・機械学習 最新ニュース 認証済みアカウント @AI_news_nd フォロー @AI_news_nd 人工知能(AI)、生成AI、機械学習、ディープラーニング、画像認識、画像処理、自然言語処理などの話題のニュースや役立つ情報を収集してツイートします。 #AI #人工知能 #生成AI #機械学習 #ディープラーニング #画像認識 #画像処理 #自然言語処理 掲載のご依頼はリンク先をご確認ください。" [ref=e2087] [cursor=pointer]':
+                      - generic [ref=e2088]:
+                        - link [ref=e2098]:
+                          - /url: /AI_news_nd
+                        - generic [ref=e2101]:
+                          - generic [ref=e2102]:
+                            - generic [ref=e2104]:
+                              - link "AI 人工知能・機械学習 最新ニュース 認証済みアカウント" [ref=e2106]:
+                                - /url: /AI_news_nd
+                                - generic [ref=e2107]:
+                                  - generic [ref=e2109]: AI 人工知能・機械学習 最新ニュース
+                                  - img "認証済みアカウント" [ref=e2112]
+                              - link "@AI_news_nd" [ref=e2117]:
+                                - /url: /AI_news_nd
+                                - generic [ref=e2119]: "@AI_news_nd"
+                            - button "フォロー @AI_news_nd" [ref=e2121]:
+                              - generic [ref=e2124]: フォロー
+                          - generic [ref=e2125]:
+                            - text: 人工知能(AI)、生成AI、機械学習、ディープラーニング、画像認識、画像処理、自然言語処理などの話題のニュースや役立つ情報を収集してツイートします。
+                            - link "#AI" [ref=e2127]:
+                              - /url: /search?q=%23AI&src=hashtag_click
+                            - link "#人工知能" [ref=e2129]:
+                              - /url: /search?q=%23%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD&src=hashtag_click
+                            - link "#生成AI" [ref=e2131]:
+                              - /url: /search?q=%23%E7%94%9F%E6%88%90AI&src=hashtag_click
+                            - link "#機械学習" [ref=e2133]:
+                              - /url: /search?q=%23%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92&src=hashtag_click
+                            - link "#ディープラーニング" [ref=e2135]:
+                              - /url: /search?q=%23%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0&src=hashtag_click
+                            - link "#画像認識" [ref=e2137]:
+                              - /url: /search?q=%23%E7%94%BB%E5%83%8F%E8%AA%8D%E8%AD%98&src=hashtag_click
+                            - link "#画像処理" [ref=e2139]:
+                              - /url: /search?q=%23%E7%94%BB%E5%83%8F%E5%87%A6%E7%90%86&src=hashtag_click
+                            - link "#自然言語処理" [ref=e2141]:
+                              - /url: /search?q=%23%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86&src=hashtag_click
+                            - text: 掲載のご依頼はリンク先をご確認ください。
+                    - button "AI 人工知能 ニュース 認証済みアカウント @ai_news_jp フォロー @ai_news_jp 厳選した人工知能、AI系のニュースを配信しています。 いいね、リポストお願いします。" [ref=e2145] [cursor=pointer]:
+                      - generic [ref=e2146]:
+                        - link [ref=e2156]:
+                          - /url: /ai_news_jp
+                        - generic [ref=e2159]:
+                          - generic [ref=e2160]:
+                            - generic [ref=e2162]:
+                              - link "AI 人工知能 ニュース 認証済みアカウント" [ref=e2164]:
+                                - /url: /ai_news_jp
+                                - generic [ref=e2165]:
+                                  - generic [ref=e2167]: AI 人工知能 ニュース
+                                  - img "認証済みアカウント" [ref=e2170]
+                              - link "@ai_news_jp" [ref=e2175]:
+                                - /url: /ai_news_jp
+                                - generic [ref=e2177]: "@ai_news_jp"
+                            - button "フォロー @ai_news_jp" [ref=e2179]:
+                              - generic [ref=e2182]: フォロー
+                          - generic [ref=e2183]: 厳選した人工知能、AI系のニュースを配信しています。 いいね、リポストお願いします。
+                    - link "すべて表示" [ref=e2187] [cursor=pointer]:
+                      - /url: /search?q=AI%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&src=typed_query&f=user
+                      - generic [ref=e2188]: すべて表示
+                    - 'article "NHKニュース 認証済みアカウント @nhk_news 19 時間前 来年春の就職活動 AI導入理由に大手で新卒採用減らす動きも news.web.nhk/newsweb/na/na- #nhk_news news.web.nhk 来年春の就職活動 AI導入理由に大手で新卒採用減らす動きも | NHKニュース news.web.nhkから 145 件の返信、2390 件のリポスト、5431 件のいいね、1104 件のブックマーク、3448756 件の表示" [ref=e2195] [cursor=pointer]':
+                      - generic [ref=e2201]:
+                        - link [ref=e2213]:
+                          - /url: /nhk_news
+                        - generic [ref=e2216]:
+                          - generic [ref=e2218]:
+                            - generic [ref=e2221]:
+                              - link "NHKニュース 認証済みアカウント" [ref=e2224]:
+                                - /url: /nhk_news
+                                - generic [ref=e2225]:
+                                  - generic [ref=e2227]: NHKニュース
+                                  - img "認証済みアカウント" [ref=e2230]
+                              - generic [ref=e2234]:
+                                - link "@nhk_news" [ref=e2236]:
+                                  - /url: /nhk_news
+                                  - generic [ref=e2237]: "@nhk_news"
+                                - generic [ref=e2238]: ·
+                                - link "19 時間前" [ref=e2240]:
+                                  - /url: /nhk_news/status/2041601921941958700
+                                  - time [ref=e2241]: 19時間
+                            - generic [ref=e2243]:
+                              - button "Grokのアクション" [ref=e2245]:
+                                - img [ref=e2250]
+                              - button "もっと見る" [ref=e2256]:
+                                - img [ref=e2260]
+                          - generic [ref=e2264]:
+                            - text: 来年春の就職活動 AI導入理由に大手で新卒採用減らす動きも
+                            - link "news.web.nhk/newsweb/na/na-" [ref=e2265]:
+                              - /url: https://t.co/ULMVQImxua
+                              - text: news.web.nhk/newsweb/na/na- …
+                            - link "#nhk_news" [ref=e2267]:
+                              - /url: /hashtag/nhk_news?src=hashtag_click
+                          - generic "news.web.nhk 来年春の就職活動 AI導入理由に大手で新卒採用減らす動きも | NHKニュース" [ref=e2268]:
+                            - generic "news.web.nhk 来年春の就職活動 AI導入理由に大手で新卒採用減らす動きも | NHKニュース" [ref=e2269]:
+                              - link "news.web.nhk 来年春の就職活動 AI導入理由に大手で新卒採用減らす動きも | NHKニュース" [ref=e2271]:
+                                - /url: https://t.co/ULMVQImxua
+                                - generic [ref=e2277]:
+                                  - generic:
+                                    - generic: 来年春の就職活動 AI導入理由に大手で新卒採用減らす動きも | NHKニュース
+                            - link "news.web.nhkから" [ref=e2280]:
+                              - /url: https://t.co/ULMVQImxua
+                          - group "145 件の返信、2390 件のリポスト、5431 件のいいね、1104 件のブックマーク、3448756 件の表示" [ref=e2283]:
+                            - button "145 件の返信。返信する" [ref=e2285]:
+                              - generic [ref=e2286]:
+                                - img [ref=e2289]
+                                - generic [ref=e2294]: "145"
+                            - button "2390 件のリポスト件。リポスト" [ref=e2296]:
+                              - generic [ref=e2297]:
+                                - img [ref=e2300]
+                                - generic [ref=e2305]: 2,390
+                            - button "5431 件のいいね。いいねする" [ref=e2307]:
+                              - generic [ref=e2308]:
+                                - img [ref=e2311]
+                                - generic [ref=e2316]: 5,431
+                            - link "3448756 件の表示。ポストアナリティクスを表示" [ref=e2318]:
+                              - /url: /nhk_news/status/2041601921941958700/analytics
+                              - generic [ref=e2319]:
+                                - img [ref=e2322]
+                                - generic [ref=e2327]: 344万
+                            - button "ブックマーク" [ref=e2329]:
+                              - img [ref=e2333]
+                            - button "ポストを共有" [ref=e2338]:
+                              - img [ref=e2342]
+                    - article "日本経済新聞 電子版（日経電子版） 認証済みアカウント @nikkei 4月7日 朝日新聞社長「AI全振り」宣言の真意 nikkei.com/article/DGXZQO 「一番重視すべきは、間違いのない情報や時代を見据えた報道。そこから名だたる記者を抱える『スーパージャーナリスト構想』に至った」 AI時代の理想の記者像やメディアの生存戦略について聞きました。 埋め込み動画 動画を再生 138 件の返信、262 件のリポスト、315 件のいいね、147 件のブックマーク、264356 件の表示" [ref=e2348] [cursor=pointer]:
+                      - generic [ref=e2354]:
+                        - link "正方形のプロフィール画像" [ref=e2366]:
+                          - /url: /nikkei
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic "正方形のプロフィール画像":
+                                  - img "正方形のプロフィール画像"
+                        - generic [ref=e2369]:
+                          - generic [ref=e2371]:
+                            - generic [ref=e2374]:
+                              - link "日本経済新聞 電子版（日経電子版） 認証済みアカウント" [ref=e2377]:
+                                - /url: /nikkei
+                                - generic [ref=e2378]:
+                                  - generic [ref=e2380]: 日本経済新聞 電子版（日経電子版）
+                                  - img "認証済みアカウント" [ref=e2383]
+                              - generic [ref=e2390]:
+                                - link "@nikkei" [ref=e2392]:
+                                  - /url: /nikkei
+                                  - generic [ref=e2393]: "@nikkei"
+                                - generic [ref=e2394]: ·
+                                - link "4月7日" [ref=e2396]:
+                                  - /url: /nikkei/status/2041335441299759201
+                                  - time [ref=e2397]: 4月7日
+                            - generic [ref=e2399]:
+                              - button "Grokのアクション" [ref=e2401]:
+                                - img [ref=e2406]
+                              - button "もっと見る" [ref=e2412]:
+                                - img [ref=e2416]
+                          - generic [ref=e2420]:
+                            - text: 朝日新聞社長「AI全振り」宣言の真意
+                            - link "nikkei.com/article/DGXZQO" [ref=e2421]:
+                              - /url: https://t.co/AJtMzltTIr
+                              - text: nikkei.com/article/DGXZQO …
+                            - text: 「一番重視すべきは、間違いのない情報や時代を見据えた報道。そこから名だたる記者を抱える『スーパージャーナリスト構想』に至った」 AI時代の理想の記者像やメディアの生存戦略について聞きました。
+                          - generic [ref=e2438]:
+                            - generic "埋め込み動画" [ref=e2441]
+                            - button "動画を再生" [ref=e2448]:
+                              - img [ref=e2449]
+                          - group "138 件の返信、262 件のリポスト、315 件のいいね、147 件のブックマーク、264356 件の表示" [ref=e2455]:
+                            - button "138 件の返信。返信する" [ref=e2457]:
+                              - generic [ref=e2458]:
+                                - img [ref=e2461]
+                                - generic [ref=e2466]: "138"
+                            - button "262 件のリポスト件。リポスト" [ref=e2468]:
+                              - generic [ref=e2469]:
+                                - img [ref=e2472]
+                                - generic [ref=e2477]: "262"
+                            - button "315 件のいいね。いいねする" [ref=e2479]:
+                              - generic [ref=e2480]:
+                                - img [ref=e2483]
+                                - generic [ref=e2488]: "315"
+                            - link "264356 件の表示。ポストアナリティクスを表示" [ref=e2490]:
+                              - /url: /nikkei/status/2041335441299759201/analytics
+                              - generic [ref=e2491]:
+                                - img [ref=e2494]
+                                - generic [ref=e2499]: 26万
+                            - button "ブックマーク" [ref=e2501]:
+                              - img [ref=e2505]
+                            - button "ポストを共有" [ref=e2510]:
+                              - img [ref=e2514]
+                    - article "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》 認証済みアカウント @masahirochaen 3月31日 【 ⚡️ 速報】Claude CodeでOpenAI CodeXが利用可能に ClaudeとCodeXが同じターミナルで使えるだと… /codex:review：標準コードレビュー /codex:adversarial ：厳格な敵対的レビュー /codex:rescue：タスクをCodexへ丸ごと委任 ChatGPT無料プラン含む全ユーザー対象 ↓詳細 埋め込み動画 動画を再生 dominik kundelさんから 20 件の返信、77 件のリポスト、737 件のいいね、898 件のブックマーク、107495 件の表示" [ref=e2520] [cursor=pointer]:
+                      - generic [ref=e2526]:
+                        - link [ref=e2538]:
+                          - /url: /masahirochaen
+                        - generic [ref=e2541]:
+                          - generic [ref=e2543]:
+                            - generic [ref=e2546]:
+                              - link "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》 認証済みアカウント" [ref=e2549]:
+                                - /url: /masahirochaen
+                                - generic [ref=e2550]:
+                                  - generic [ref=e2552]:
+                                    - text: チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信
+                                    - img "⚡️" [ref=e2553]
+                                    - text: 》
+                                  - img "認証済みアカウント" [ref=e2556]
+                              - generic [ref=e2560]:
+                                - link "@masahirochaen" [ref=e2562]:
+                                  - /url: /masahirochaen
+                                  - generic [ref=e2563]: "@masahirochaen"
+                                - generic [ref=e2564]: ·
+                                - link "3月31日" [ref=e2566]:
+                                  - /url: /masahirochaen/status/2038790628021346747
+                                  - time [ref=e2567]: 3月31日
+                            - generic [ref=e2569]:
+                              - button "Grokのアクション" [ref=e2571]:
+                                - img [ref=e2576]
+                              - button "もっと見る" [ref=e2582]:
+                                - img [ref=e2586]
+                          - generic [ref=e2590]:
+                            - text: 【
+                            - img "⚡️" [ref=e2591]
+                            - text: 速報】Claude CodeでOpenAI CodeXが利用可能に ClaudeとCodeXが同じターミナルで使えるだと… /codex:review：標準コードレビュー /codex:adversarial ：厳格な敵対的レビュー /codex:rescue：タスクをCodexへ丸ごと委任 ChatGPT無料プラン含む全ユーザー対象 ↓詳細
+                          - generic [ref=e2595]:
+                            - generic [ref=e2608]:
+                              - generic "埋め込み動画" [ref=e2611]
+                              - button "動画を再生" [ref=e2618]:
+                                - img [ref=e2619]
+                            - generic "dominik kundelさんから" [ref=e2623]:
+                              - generic [ref=e2624]:
+                                - text: "投稿者:"
+                                - link "dominik kundel 認証済みアカウント" [ref=e2625]:
+                                  - /url: /i/status/2038670330257109461
+                                  - generic [ref=e2630]:
+                                    - generic [ref=e2632]: dominik kundel
+                                    - img "認証済みアカウント" [ref=e2635]
+                          - group "20 件の返信、77 件のリポスト、737 件のいいね、898 件のブックマーク、107495 件の表示" [ref=e2640]:
+                            - button "20 件の返信。返信する" [ref=e2642]:
+                              - generic [ref=e2643]:
+                                - img [ref=e2646]
+                                - generic [ref=e2651]: "20"
+                            - button "77 件のリポスト件。リポスト" [ref=e2653]:
+                              - generic [ref=e2654]:
+                                - img [ref=e2657]
+                                - generic [ref=e2662]: "77"
+                            - button "737 件のいいね。いいねする" [ref=e2664]:
+                              - generic [ref=e2665]:
+                                - img [ref=e2668]
+                                - generic [ref=e2673]: "737"
+                            - link "107495 件の表示。ポストアナリティクスを表示" [ref=e2675]:
+                              - /url: /masahirochaen/status/2038790628021346747/analytics
+                              - generic [ref=e2676]:
+                                - img [ref=e2679]
+                                - generic [ref=e2684]: 10万
+                            - button "ブックマーク" [ref=e2686]:
+                              - img [ref=e2690]
+                            - button "ポストを共有" [ref=e2695]:
+                              - img [ref=e2699]
+                    - article "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》 認証済みアカウント @masahirochaen 4月3日 自分の声を10秒録音するだけで、AIが40言語以上で喋ってくれるツールが登場。 音声クローンツール、色々試してきたけどMiniMax Audio が手軽で精度も良くておすすめ。 ElevenLabsの一番高いプランをずっと使ってきましたが、意外とMiniMax 埋め込み動画 動画を再生 7 件の返信、45 件のリポスト、430 件のいいね、550 件のブックマーク、42069 件の表示" [ref=e2705] [cursor=pointer]:
+                      - generic [ref=e2711]:
+                        - link [ref=e2723]:
+                          - /url: /masahirochaen
+                        - generic [ref=e2726]:
+                          - generic [ref=e2728]:
+                            - generic [ref=e2731]:
+                              - link "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》 認証済みアカウント" [ref=e2734]:
+                                - /url: /masahirochaen
+                                - generic [ref=e2735]:
+                                  - generic [ref=e2737]:
+                                    - text: チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信
+                                    - img "⚡️" [ref=e2738]
+                                    - text: 》
+                                  - img "認証済みアカウント" [ref=e2741]
+                              - generic [ref=e2745]:
+                                - link "@masahirochaen" [ref=e2747]:
+                                  - /url: /masahirochaen
+                                  - generic [ref=e2748]: "@masahirochaen"
+                                - generic [ref=e2749]: ·
+                                - link "4月3日" [ref=e2751]:
+                                  - /url: /masahirochaen/status/2040014167139307833
+                                  - time [ref=e2752]: 4月3日
+                            - generic [ref=e2754]:
+                              - button "Grokのアクション" [ref=e2756]:
+                                - img [ref=e2761]
+                              - button "もっと見る" [ref=e2767]:
+                                - img [ref=e2771]
+                          - generic [ref=e2774]:
+                            - generic [ref=e2775]: 自分の声を10秒録音するだけで、AIが40言語以上で喋ってくれるツールが登場。 音声クローンツール、色々試してきたけどMiniMax Audio が手軽で精度も良くておすすめ。 ElevenLabsの一番高いプランをずっと使ってきましたが、意外とMiniMax
+                            - button "さらに表示" [ref=e2776]
+                          - generic [ref=e2793]:
+                            - generic "埋め込み動画" [ref=e2796]
+                            - button "動画を再生" [ref=e2803]:
+                              - img [ref=e2804]
+                          - group "7 件の返信、45 件のリポスト、430 件のいいね、550 件のブックマーク、42069 件の表示" [ref=e2810]:
+                            - button "7 件の返信。返信する" [ref=e2812]:
+                              - generic [ref=e2813]:
+                                - img [ref=e2816]
+                                - generic [ref=e2821]: "7"
+                            - button "45 件のリポスト件。リポスト" [ref=e2823]:
+                              - generic [ref=e2824]:
+                                - img [ref=e2827]
+                                - generic [ref=e2832]: "45"
+                            - button "430 件のいいね。いいねする" [ref=e2834]:
+                              - generic [ref=e2835]:
+                                - img [ref=e2838]
+                                - generic [ref=e2843]: "430"
+                            - link "42069 件の表示。ポストアナリティクスを表示" [ref=e2845]:
+                              - /url: /masahirochaen/status/2040014167139307833/analytics
+                              - generic [ref=e2846]:
+                                - img [ref=e2849]
+                                - generic [ref=e2854]: 4.2万
+                            - button "ブックマーク" [ref=e2856]:
+                              - img [ref=e2860]
+                            - button "ポストを共有" [ref=e2865]:
+                              - img [ref=e2869]
+                    - article "産経ニュース 認証済みアカウント @Sankei_news 3月29日 就活戦線「売り手市場」に異変 新卒採用減 人に代わるAI導入視野、即戦力の中途重視も sankei.com/article/202603 企業の採用意欲は依然高いものの、人材獲得競争の激化で新卒採用は現状維持の水準にとどめたり、人間に代わるAIの本格導入に向けた人員配置を計画したりするケースがあるようだ。 sankei.com 就活戦線「売り手市場」に異変 新卒採用減 人に代わるAI導入視野、即戦力の中途重視も sankei.comから 82 件の返信、581 件のリポスト、1704 件のいいね、396 件のブックマーク、906260 件の表示" [ref=e2875] [cursor=pointer]:
+                      - generic [ref=e2881]:
+                        - link "正方形のプロフィール画像" [ref=e2893]:
+                          - /url: /Sankei_news
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic "正方形のプロフィール画像":
+                                  - img "正方形のプロフィール画像"
+                        - generic [ref=e2896]:
+                          - generic [ref=e2898]:
+                            - generic [ref=e2901]:
+                              - link "産経ニュース 認証済みアカウント" [ref=e2904]:
+                                - /url: /Sankei_news
+                                - generic [ref=e2905]:
+                                  - generic [ref=e2907]: 産経ニュース
+                                  - img "認証済みアカウント" [ref=e2910]
+                              - generic [ref=e2917]:
+                                - link "@Sankei_news" [ref=e2919]:
+                                  - /url: /Sankei_news
+                                  - generic [ref=e2920]: "@Sankei_news"
+                                - generic [ref=e2921]: ·
+                                - link "3月29日" [ref=e2923]:
+                                  - /url: /Sankei_news/status/2038041569245458780
+                                  - time [ref=e2924]: 3月29日
+                            - generic [ref=e2926]:
+                              - button "Grokのアクション" [ref=e2928]:
+                                - img [ref=e2933]
+                              - button "もっと見る" [ref=e2939]:
+                                - img [ref=e2943]
+                          - generic [ref=e2947]:
+                            - text: 就活戦線「売り手市場」に異変 新卒採用減 人に代わるAI導入視野、即戦力の中途重視も
+                            - link "sankei.com/article/202603" [ref=e2948]:
+                              - /url: https://t.co/O3ZkTdQXYs
+                              - text: sankei.com/article/202603 …
+                            - text: 企業の採用意欲は依然高いものの、人材獲得競争の激化で新卒採用は現状維持の水準にとどめたり、人間に代わるAIの本格導入に向けた人員配置を計画したりするケースがあるようだ。
+                          - generic "sankei.com 就活戦線「売り手市場」に異変 新卒採用減 人に代わるAI導入視野、即戦力の中途重視も" [ref=e2949]:
+                            - generic "sankei.com 就活戦線「売り手市場」に異変 新卒採用減 人に代わるAI導入視野、即戦力の中途重視も" [ref=e2950]:
+                              - link "sankei.com 就活戦線「売り手市場」に異変 新卒採用減 人に代わるAI導入視野、即戦力の中途重視も" [ref=e2952]:
+                                - /url: https://t.co/O3ZkTdQXYs
+                                - generic [ref=e2958]:
+                                  - generic:
+                                    - generic: 就活戦線「売り手市場」に異変 新卒採用減 人に代わるAI導入視野、即戦力の中途重視も
+                            - link "sankei.comから" [ref=e2961]:
+                              - /url: https://t.co/O3ZkTdQXYs
+                          - group "82 件の返信、581 件のリポスト、1704 件のいいね、396 件のブックマーク、906260 件の表示" [ref=e2964]:
+                            - button "82 件の返信。返信する" [ref=e2966]:
+                              - generic [ref=e2967]:
+                                - img [ref=e2970]
+                                - generic [ref=e2975]: "82"
+                            - button "581 件のリポスト件。リポスト" [ref=e2977]:
+                              - generic [ref=e2978]:
+                                - img [ref=e2981]
+                                - generic [ref=e2986]: "581"
+                            - button "1704 件のいいね。いいねする" [ref=e2988]:
+                              - generic [ref=e2989]:
+                                - img [ref=e2992]
+                                - generic [ref=e2997]: 1,704
+                            - link "906260 件の表示。ポストアナリティクスを表示" [ref=e2999]:
+                              - /url: /Sankei_news/status/2038041569245458780/analytics
+                              - generic [ref=e3000]:
+                                - img [ref=e3003]
+                                - generic [ref=e3008]: 90万
+                            - button "ブックマーク" [ref=e3010]:
+                              - img [ref=e3014]
+                            - button "ポストを共有" [ref=e3019]:
+                              - img [ref=e3023]
+  - generic:
+    - img
+  - generic:
+    - img

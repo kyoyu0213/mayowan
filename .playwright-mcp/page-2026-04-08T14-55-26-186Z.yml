@@ -1,0 +1,305 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "メイン コンテンツにスキップ" [ref=e2] [cursor=pointer]
+      - link "ユーザー補助ヘルプ" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=ja
+      - link "ユーザー補助に関するフィードバック" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Google ホームへ" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=ja&ictx=0&sa=X&ved=0ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQpYkNCAs
+          - img "Google ホームへ" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "検索" [ref=e23]: google.com google.com
+          - generic [ref=e24]:
+            - button "消去" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "音声で検索" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "画像で検索" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "検索" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "設定" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google アプリ" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "ログイン" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=ja&passive=true&continue=https://www.google.com/search%3Fq%3Dgoogle.com%26sei%3DXWzWaaa8KeeBhuMPmYqeiQ0&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI モード" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&udm=50&fbs=ADc_l-ZNUvfEZ4LePc_iX_vnq-Y0jKEndmMG71j-UK_Xmt2o2LOnp83XZD2u-NzMgat-LTPV85tWpioKB4_x9I3yABRDMoW5347R-mF-vz99Z7rynvXdWHzlUrVUTwhXdOlCLXH3OwTOqMsYNqLIc4CqCNmnrjtjEeWiIgrT-Y3L9NqX8rvqpyLMjggXXGUIA5lMF-4lMHg8xOONCYtSmOUd6jXc8FRYzdIXGCRPJgVFbJAAyYFT1H8&aep=1&ntc=1&sa=X&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ2J8OegQIERAE
+              - generic [ref=e78]: AI モード
+          - listitem [ref=e79]:
+            - link "すべて" [disabled] [ref=e80]:
+              - generic [ref=e82]: すべて
+          - listitem [ref=e83]:
+            - link "画像" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=26efe42c3f425b34&udm=2&fbs=ADc_l-ZNUvfEZ4LePc_iX_vnq-Y0jKEndmMG71j-UK_Xmt2o2LOnp83XZD2u-NzMgat-LTPV85tWpioKB4_x9I3yABRDMoW5347R-mF-vz99Z7rynvXdWHzlUrVUTwhXdOlCLXH3OwTOqMsYNqLIc4CqCNmnrjtjEeWiIgrT-Y3L9NqX8rvqpyLMjggXXGUIA5lMF-4lMHg8xOONCYtSmOUd6jXc8FRYzdIXGCRPJgVFbJAAyYFT1H8&q=google.com&sa=X&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQtKgLegQIFRAB
+              - generic [ref=e86]: 画像
+          - listitem [ref=e87]:
+            - link "動画" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=26efe42c3f425b34&udm=7&fbs=ADc_l-ZNUvfEZ4LePc_iX_vnq-Y0jKEndmMG71j-UK_Xmt2o2LOnp83XZD2u-NzMgat-LTPV85tWpioKB4_x9I3yABRDMoW5347R-mF-vz99Z7rynvXdWHzlUrVUTwhXdOlCLXH3OwTOqMsYNqLIc4CqCNmnrjtjEeWiIgrT-Y3L9NqX8rvqpyLMjggXXGUIA5lMF-4lMHg8xOONCYtSmOUd6jXc8FRYzdIXGCRPJgVFbJAAyYFT1H8&q=google.com&sa=X&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQtKgLegQIFxAB
+              - generic [ref=e90]: 動画
+          - listitem [ref=e91]:
+            - link "ショッピング" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=26efe42c3f425b34&udm=28&fbs=ADc_l-ZNUvfEZ4LePc_iX_vnq-Y0jKEndmMG71j-UK_Xmt2o2LOnp83XZD2u-NzMgat-LTPV85tWpioKB4_x9I3yABRDMoW5347R-mF-vz99Z7rynvXdWHzlUrVUTwhXdOlCLXH3OwTOqMsYNqLIc4CqCNmnrjtjEeWiIgrT-Y3L9NqX8rvqpyLMjggXXGUIA5lMF-4lMHg8xOONCYtSmOUd6jXc8FRYzdIXGCRPJgVFbJAAyYFT1H8&q=google.com&ved=1t:220175&ictx=111
+              - generic [ref=e94]: ショッピング
+          - listitem [ref=e95]:
+            - link "ニュース" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=26efe42c3f425b34&q=google.com&tbm=nws&source=lnms&fbs=ADc_l-ZNUvfEZ4LePc_iX_vnq-Y0jKEndmMG71j-UK_Xmt2o2LOnp83XZD2u-NzMgat-LTPV85tWpioKB4_x9I3yABRDMoW5347R-mF-vz99Z7rynvXdWHzlUrVUTwhXdOlCLXH3OwTOqMsYNqLIc4CqCNmnrjtjEeWiIgrT-Y3L9NqX8rvqpyLMjggXXGUIA5lMF-4lMHg8xOONCYtSmOUd6jXc8FRYzdIXGCRPJgVFbJAAyYFT1H8&sa=X&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ0pQJegQIExAB
+              - generic [ref=e98]: ニュース
+          - listitem [ref=e99]:
+            - link "ショート動画" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=26efe42c3f425b34&udm=39&fbs=ADc_l-ZNUvfEZ4LePc_iX_vnq-Y0jKEndmMG71j-UK_Xmt2o2LOnp83XZD2u-NzMgat-LTPV85tWpioKB4_x9I3yABRDMoW5347R-mF-vz99Z7rynvXdWHzlUrVUTwhXdOlCLXH3OwTOqMsYNqLIc4CqCNmnrjtjEeWiIgrT-Y3L9NqX8rvqpyLMjggXXGUIA5lMF-4lMHg8xOONCYtSmOUd6jXc8FRYzdIXGCRPJgVFbJAAyYFT1H8&q=google.com&sa=X&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQs6gLegQIFBAB
+              - generic [ref=e102]: ショート動画
+          - listitem [ref=e103]:
+            - button "その他のフィルタ" [ref=e104] [cursor=pointer]:
+              - generic "その他のフィルタ" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: もっと見る
+                  - img [ref=e109]
+        - button "ツール" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: ツール
+            - img [ref=e117]
+    - heading "検索結果" [level=1] [ref=e119]
+    - main [ref=e125]:
+      - generic [ref=e129]:
+        - generic [ref=e132]:
+          - heading "ウェブの結果（サイトリンク付き）" [level=2] [ref=e133]
+          - generic [ref=e134]:
+            - generic [ref=e138]:
+              - generic [ref=e140]:
+                - link "Google Google https://www.google.com" [ref=e142] [cursor=pointer]:
+                  - /url: https://www.google.com/
+                  - heading "Google" [level=3] [ref=e143]
+                  - generic [ref=e148]:
+                    - generic [ref=e150]: Google
+                    - generic [ref=e152]: https://www.google.com
+                - button "この結果について" [ref=e153] [cursor=pointer]:
+                  - img [ref=e156]
+              - generic [ref=e160]:
+                - text: Search the world's information, including webpages, images, videos and more.
+                - emphasis [ref=e161]: Google
+                - text: has many special features to help you find exactly what you're looking ...
+            - group "履歴に基づいてパーソナライズされたおすすめ" [ref=e162]:
+              - rowgroup [ref=e163]:
+                - row "Google ダブルタップすると、Google で検索できます。 報告する. キャンセル. OK ..." [ref=e164]:
+                  - cell "Google ダブルタップすると、Google で検索できます。 報告する. キャンセル. OK ..." [ref=e165]:
+                    - generic [ref=e170]:
+                      - heading "Google" [level=3] [ref=e171]:
+                        - link "Google" [ref=e172] [cursor=pointer]:
+                          - /url: https://www.google.com/?hl=ja
+                          - text: Google
+                      - generic [ref=e175]: ダブルタップすると、Google で検索できます。 報告する. キャンセル. OK ...
+                - row "ログイン ご自分のパソコンでない場合は、ゲストモードを使用して非公開でログイ ..." [ref=e176]:
+                  - cell "ログイン ご自分のパソコンでない場合は、ゲストモードを使用して非公開でログイ ..." [ref=e177]:
+                    - generic [ref=e182]:
+                      - heading "ログイン" [level=3] [ref=e183]:
+                        - link "ログイン" [ref=e184] [cursor=pointer]:
+                          - /url: https://takeout.google.com/?hl=ja
+                          - text: ログイン
+                      - generic [ref=e187]: ご自分のパソコンでない場合は、ゲストモードを使用して非公開でログイ ...
+                - row "アカウント Google アカウントで情報、アクティビティ、セキュリティ オプション、プラ ..." [ref=e188]:
+                  - cell "アカウント Google アカウントで情報、アクティビティ、セキュリティ オプション、プラ ..." [ref=e189]:
+                    - generic [ref=e194]:
+                      - heading "アカウント" [level=3] [ref=e195]:
+                        - link "アカウント" [ref=e196] [cursor=pointer]:
+                          - /url: https://www.google.com/intl/ja/account/about/
+                          - text: アカウント
+                      - generic [ref=e199]: Google アカウントで情報、アクティビティ、セキュリティ オプション、プラ ...
+                - row "Gemini Google の AI アシスタント、Gemini へようこそ。文章やリストの作成 ..." [ref=e200]:
+                  - cell "Gemini Google の AI アシスタント、Gemini へようこそ。文章やリストの作成 ..." [ref=e201]:
+                    - generic [ref=e206]:
+                      - heading "Gemini" [level=3] [ref=e207]:
+                        - link "Gemini" [ref=e208] [cursor=pointer]:
+                          - /url: https://gemini.google.com/?hl=ja
+                          - text: Gemini
+                      - generic [ref=e211]: Google の AI アシスタント、Gemini へようこそ。文章やリストの作成 ...
+                - row "Google Pixel 10a – シンプルに 活用ヒント. Google ストアでお得にお買い物Google ストアなら簡単に購 ..." [ref=e212]:
+                  - cell "Google Pixel 10a – シンプルに 活用ヒント. Google ストアでお得にお買い物Google ストアなら簡単に購 ..." [ref=e213]:
+                    - generic [ref=e218]:
+                      - heading "Google Pixel 10a – シンプルに" [level=3] [ref=e219]:
+                        - link "Google Pixel 10a – シンプルに" [ref=e220] [cursor=pointer]:
+                          - /url: https://store.google.com/jp/?hl=ja
+                          - text: Google Pixel 10a – シンプルに
+                      - generic [ref=e223]: 活用ヒント. Google ストアでお得にお買い物Google ストアなら簡単に購 ...
+                - row "google.com のすべての検索結果を表示 »" [ref=e225]:
+                  - cell "google.com のすべての検索結果を表示 »" [ref=e226]:
+                    - link "google.com のすべての検索結果を表示 »" [ref=e228] [cursor=pointer]:
+                      - /url: /search?q=google.com+site:google.com&sca_esv=26efe42c3f425b34&sa=X&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQrAN6BAgoEAE
+        - generic [ref=e231]:
+          - heading "Web results" [level=2] [ref=e232]
+          - generic [ref=e233]:
+            - generic [ref=e236]:
+              - link "Google google.co.jp https://www.google.co.jp" [ref=e238] [cursor=pointer]:
+                - /url: https://www.google.co.jp/index.html
+                - heading "Google" [level=3] [ref=e239]
+                - generic [ref=e244]:
+                  - generic [ref=e246]: google.co.jp
+                  - generic [ref=e248]: https://www.google.co.jp
+              - button "この結果について" [ref=e249] [cursor=pointer]:
+                - img [ref=e252]
+            - generic [ref=e256]:
+              - text: Search the world's information, including webpages, images, videos and more.
+              - emphasis [ref=e257]: Google
+              - text: has many special features to help you find exactly what you're looking ...
+        - generic [ref=e261]:
+          - generic [ref=e264]:
+            - link "Google Google https://www.google.co.jp › videohp" [ref=e266] [cursor=pointer]:
+              - /url: https://www.google.co.jp/videohp?hl=ja
+              - heading "Google" [level=3] [ref=e267]
+              - generic [ref=e272]:
+                - generic [ref=e274]: Google
+                - generic [ref=e276]: https://www.google.co.jp › videohp
+            - button "この結果について" [ref=e277] [cursor=pointer]:
+              - img [ref=e280]
+          - generic [ref=e284]:
+            - text: ダブルタップすると、
+            - emphasis [ref=e285]: Google
+            - text: で検索できます。 報告する. キャンセル. OK. 削除. 設定 · 検索設定 · 検索オプション · 検索履歴 · ヘルプを検索. フィードバック.
+        - generic [ref=e289]:
+          - generic [ref=e290]:
+            - heading "関連する質問" [level=2] [ref=e291]
+            - button "この結果について" [ref=e292] [cursor=pointer]:
+              - img [ref=e295]
+          - generic [ref=e297]:
+            - button "Googleにログインするにはどうすればいいですか？" [ref=e303] [cursor=pointer]:
+              - generic [ref=e305]: Googleにログインするにはどうすればいいですか？
+              - img [ref=e308]
+            - button "Googleのいやらしい広告を消すにはどうすればいいですか？" [ref=e317] [cursor=pointer]:
+              - generic [ref=e319]: Googleのいやらしい広告を消すにはどうすればいいですか？
+              - img [ref=e322]
+            - button "Google アカウントとGmailは同じですか？" [ref=e331] [cursor=pointer]:
+              - generic [ref=e333]: Google アカウントとGmailは同じですか？
+              - img [ref=e336]
+            - button "グーグルの隠しコマンドはホラーですか？" [ref=e345] [cursor=pointer]:
+              - generic [ref=e347]: グーグルの隠しコマンドはホラーですか？
+              - img [ref=e350]
+        - generic [ref=e355]:
+          - heading "Web results" [level=2] [ref=e356]
+          - generic [ref=e357]:
+            - generic [ref=e360]:
+              - link "Google Search search.google https://search.google" [ref=e362] [cursor=pointer]:
+                - /url: https://search.google/
+                - heading "Google Search" [level=3] [ref=e363]
+                - generic [ref=e368]:
+                  - generic [ref=e370]: search.google
+                  - generic [ref=e372]: https://search.google
+              - generic [ref=e373]:
+                - generic [ref=e374]: ·
+                - link "このページを訳す" [ref=e375] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://search.google/&hl=ja&sl=en&tl=ja&client=search
+              - button "この結果について" [ref=e376] [cursor=pointer]:
+                - img [ref=e379]
+            - generic [ref=e383]:
+              - text: Explore new ways to search.
+              - emphasis [ref=e384]: Download the Google app
+              - text: to experience Lens, AR, Search Labs, voice search, and more.
+        - generic [ref=e388]:
+          - generic [ref=e391]:
+            - 'link "About Google: Our products, technology and company ... About Google https://about.google" [ref=e393] [cursor=pointer]':
+              - /url: https://about.google/
+              - 'heading "About Google: Our products, technology and company ..." [level=3] [ref=e394]'
+              - generic [ref=e399]:
+                - generic [ref=e401]: About Google
+                - generic [ref=e403]: https://about.google
+            - generic [ref=e404]:
+              - generic [ref=e405]: ·
+              - link "このページを訳す" [ref=e406] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://about.google/&hl=ja&sl=en&tl=ja&client=search
+            - button "この結果について" [ref=e407] [cursor=pointer]:
+              - img [ref=e410]
+          - generic [ref=e414]:
+            - text: Learn more about
+            - emphasis [ref=e415]: Google
+            - text: . Explore our innovative AI products and services, and discover how we're using technology to help improve lives around the world.
+        - generic [ref=e419]:
+          - generic [ref=e422]:
+            - link "お子様のオンラインでの安全を守る保護者向け管理ツール Google Families https://families.google › intl › ja_ALL › familylink" [ref=e424] [cursor=pointer]:
+              - /url: https://families.google/intl/ja_ALL/familylink/
+              - heading "お子様のオンラインでの安全を守る保護者向け管理ツール" [level=3] [ref=e425]
+              - generic [ref=e430]:
+                - generic [ref=e432]: Google Families
+                - generic [ref=e434]: https://families.google › intl › ja_ALL › familylink
+            - button "この結果について" [ref=e435] [cursor=pointer]:
+              - img [ref=e438]
+          - generic [ref=e441]: ファミリー リンクは、テクノロジーに関する各ご家庭の選択を大切にし、健全でポジティブなデジタル習慣を築けるようサポートするツールを提供します。
+        - generic [ref=e445]:
+          - generic [ref=e448]:
+            - link "Google Facebook · Google 3518.3万 人以上のフォロワー" [ref=e450] [cursor=pointer]:
+              - /url: https://www.facebook.com/Google/
+              - heading "Google" [level=3] [ref=e451]
+              - generic [ref=e456]:
+                - generic [ref=e458]: Facebook · Google
+                - generic [ref=e460]: 3518.3万 人以上のフォロワー
+            - button "この結果について" [ref=e461] [cursor=pointer]:
+              - img [ref=e464]
+          - generic [ref=e468]:
+            - text: For many years,
+            - emphasis [ref=e469]: Google
+            - text: has been committed to helping people find high-quality information and crisis support in the moments they need it most. Today, we're ...
+      - navigation [ref=e472]:
+        - heading "ページの操作" [level=1] [ref=e473]
+        - text: "1"
+        - link "Page 2" [ref=e476] [cursor=pointer]:
+          - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=10&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8tMDegQIDhAE
+          - text: "2"
+        - link "Page 3" [ref=e478] [cursor=pointer]:
+          - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=20&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8tMDegQIDhAG
+          - text: "3"
+        - link "Page 4" [ref=e480] [cursor=pointer]:
+          - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=30&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8tMDegQIDhAI
+          - text: "4"
+        - link "Page 5" [ref=e482] [cursor=pointer]:
+          - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=40&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8tMDegQIDhAK
+          - text: "5"
+        - link "Page 6" [ref=e484] [cursor=pointer]:
+          - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=50&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8tMDegQIDhAM
+          - text: "6"
+        - link "Page 7" [ref=e486] [cursor=pointer]:
+          - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=60&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8tMDegQIDhAO
+          - text: "7"
+        - link "Page 8" [ref=e488] [cursor=pointer]:
+          - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=70&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8tMDegQIDhAQ
+          - text: "8"
+        - link "Page 9" [ref=e490] [cursor=pointer]:
+          - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=80&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8tMDegQIDhAS
+          - text: "9"
+        - heading "次へ" [level=2] [ref=e492]:
+          - link "次へ" [ref=e493] [cursor=pointer]:
+            - /url: /search?q=google.com&sca_esv=26efe42c3f425b34&ei=XmzWaa7hAYnc1sQP_IPeyQs&start=10&sa=N&sstk=Af77f_eYykPNIO1JeZjQJUplkz5EyR-1fkBvu_dGd1gZBO1_b2ls7sQ0UbHCsGj9TPCFs3xPUbLn7ZgcCST0DAV0OrHJPp0A32TTyQ&ved=2ahUKEwiuiLe4wd6TAxUJrpUCHfyBN7kQ8NMDegQIDhAU
+            - generic [ref=e495]: 次へ
+      - navigation
+    - contentinfo [ref=e496]:
+      - heading "フッターのリンク" [level=1] [ref=e497]
+      - generic [ref=e501]:
+        - generic [ref=e503]:
+          - text: 日本
+          - generic [ref=e505]:
+            - 'button "松山市、愛媛県 - ソース: あなたの IP アドレス" [ref=e507] [cursor=pointer]':
+              - generic [ref=e508]: 松山市、愛媛県
+              - generic [ref=e510]:
+                - text: "-"
+                - generic [ref=e511]: "ソース: あなたの IP アドレス"
+            - text: "-"
+            - button "現在地を更新" [ref=e513] [cursor=pointer]: 現在地を更新
+        - generic [ref=e516]:
+          - link "ヘルプ" [ref=e517] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=ja&fg=1
+          - link "フィードバックを送信" [ref=e518] [cursor=pointer]:
+            - /url: "#"
+          - link "プライバシー" [ref=e519] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=ja&fg=1
+          - link "規約" [ref=e520] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=ja&fg=1

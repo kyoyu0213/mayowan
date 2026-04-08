@@ -4,7 +4,21 @@
       "Bash(npm run:*)",
       "Bash(npx kill-port:*)",
       "Bash(curl -s -X POST http://localhost:3000/api/recommend -H \"Content-Type: application/json\" -d '{\"age\":\"5\",\"gender\":\"male\",\"budget\":\"5000\",\"exclude\":[]}')",
-      "Bash(NODE_OPTIONS=\"--max-old-space-size=512\" npm run dev)"
+      "Bash(NODE_OPTIONS=\"--max-old-space-size=512\" npm run dev)",
+      "Read(//c/Users/yuri3/.claude/**)",
+      "Read(//c/Users/yuri3/**)",
+      "Bash(npx @playwright/mcp@latest --help)",
+      "Bash(npx @anthropic-ai/mcp-server-playwright --help)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_press_key"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\yuri3"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true
 }

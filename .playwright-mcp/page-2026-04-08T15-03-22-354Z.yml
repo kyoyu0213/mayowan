@@ -1,0 +1,451 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - heading "キーボードショートカットを表示するには、はてなマークを押してください。 キーボードショートカットを表示" [level=2] [ref=e3]:
+          - generic [ref=e4]: キーボードショートカットを表示するには、はてなマークを押してください。
+          - link "キーボードショートカットを表示" [ref=e5] [cursor=pointer]:
+            - /url: /i/keyboard_shortcuts
+        - generic [ref=e6]:
+          - button "ホームタイムラインに移動" [ref=e1958] [cursor=pointer]
+          - button "トレンドに移動" [ref=e1960] [cursor=pointer]
+          - banner [ref=e11]:
+            - generic [ref=e13]:
+              - generic [ref=e14]:
+                - heading "X" [level=1] [ref=e16] [cursor=pointer]:
+                  - link "X" [ref=e17]:
+                    - /url: /home
+                    - img [ref=e19]
+                - navigation "メインメニュー" [ref=e23]:
+                  - link "ホーム" [ref=e24] [cursor=pointer]:
+                    - /url: /home
+                    - img [ref=e983]
+                  - link "調べたいものを検索" [ref=e30] [cursor=pointer]:
+                    - /url: /explore
+                    - img [ref=e986]
+                  - link "通知" [ref=e36] [cursor=pointer]:
+                    - /url: /notifications
+                    - img [ref=e39]
+                  - link "フォローする" [ref=e42] [cursor=pointer]:
+                    - /url: /i/connect_people
+                    - img [ref=e45]
+                  - link "ダイレクトメッセージ" [ref=e48] [cursor=pointer]:
+                    - /url: /i/chat
+                    - img [ref=e51]
+                  - link "Grok" [ref=e54] [cursor=pointer]:
+                    - /url: /i/grok
+                    - generic [ref=e56]:
+                      - img [ref=e57]
+                      - generic "undefined件の未読項目" [ref=e60]
+                  - link "ブックマーク" [ref=e61] [cursor=pointer]:
+                    - /url: /i/bookmarks
+                    - img [ref=e64]
+                  - link "クリエイタースタジオ" [ref=e67] [cursor=pointer]:
+                    - /url: /i/jf/creators/studio
+                    - img [ref=e70]
+                  - link "プレミアム" [ref=e73] [cursor=pointer]:
+                    - /url: /i/premium_sign_up
+                    - img [ref=e76]
+                  - link "プロフィール" [ref=e79] [cursor=pointer]:
+                    - /url: /mamagori002
+                    - img [ref=e82]
+                  - button "その他のメニュー項目" [ref=e85] [cursor=pointer]:
+                    - img [ref=e88]
+                - link "ポストする" [ref=e92] [cursor=pointer]:
+                  - /url: /compose/post
+                  - img [ref=e94]
+              - button "アカウントメニュー" [ref=e99] [cursor=pointer]:
+                - generic [ref=e107]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "怪盗ダンディー":
+                          - img "怪盗ダンディー"
+          - main [ref=e110]:
+            - generic "ホームタイムライン" [ref=e1965]:
+              - generic [ref=e1966]:
+                - generic [ref=e1967]:
+                  - generic [ref=e1972]:
+                    - button "戻る" [ref=e1974] [cursor=pointer]:
+                      - img [ref=e1976]
+                    - search "検索" [ref=e1984]:
+                      - generic [ref=e1989]:
+                        - img [ref=e1991]
+                        - combobox "検索クエリ" [ref=e1996]: AI ニュース
+                    - button "もっと見る" [ref=e1998] [cursor=pointer]:
+                      - img [ref=e2000]
+                  - navigation [ref=e2004]:
+                    - generic [ref=e2005]:
+                      - generic:
+                        - button "前" [disabled]:
+                          - generic:
+                            - img
+                      - tablist [ref=e2007]:
+                        - tab "話題のポスト" [ref=e2008] [cursor=pointer]:
+                          - generic [ref=e2011]: 話題のポスト
+                        - tab "最新" [active] [selected] [ref=e2013] [cursor=pointer]:
+                          - generic [ref=e2016]: 最新
+                        - tab "アカウント" [ref=e2017] [cursor=pointer]:
+                          - generic [ref=e2020]: アカウント
+                        - tab "メディア" [ref=e2021] [cursor=pointer]:
+                          - generic [ref=e2024]: メディア
+                        - tab "リスト" [ref=e2025] [cursor=pointer]:
+                          - generic [ref=e2028]: リスト
+                      - generic:
+                        - button "次へ" [disabled]:
+                          - generic:
+                            - img
+                - generic:
+                  - generic:
+                    - status:
+                      - button:
+                        - generic:
+                          - img
+                          - generic: 新しいポストを表示
+              - region "タイムラインを検索" [ref=e3030]:
+                - heading "タイムラインを検索" [level=1] [ref=e3031]
+                - 'generic "タイムライン: タイムラインを検索" [ref=e3032]':
+                  - generic [ref=e3033]:
+                    - article "つぐみ製陶所 - tsugumi ceramics studio @potter_y 15 秒前 タマムシとか蝶とかのメタリックな色が色素じゃなくて構造色なのは何となく理解できるけど、ウミウシみたいなマットな色も構造色なのは意外かも。 まあ鳥の青色も色素じゃなくて構造色みたいだし。 それにしても科学ニュースメディアを自称するならAIで作った事実じゃない画像を貼るのはどうなの… 引用 ナゾロジー@科学ニュースメディア 認証済みアカウント @NazologyInfo 4月6日 ウミウシの色彩は「構造色」だったと判明 nazology.kusuguru.co.jp/archives/193750 ウミウシを「海の宝石」と喩えるのは、決して比喩ではなかったようです。独MPIはウミウシの皮膚には色素だけでなく、ナノ結晶による「構造色」が使われていることを発見。驚きの新事実です。 画像" [ref=e3037] [cursor=pointer]:
+                      - generic [ref=e3043]:
+                        - link [ref=e3055]:
+                          - /url: /potter_y
+                        - generic [ref=e3058]:
+                          - generic [ref=e3060]:
+                            - generic [ref=e3063]:
+                              - link "つぐみ製陶所 - tsugumi ceramics studio" [ref=e3066]:
+                                - /url: /potter_y
+                                - generic [ref=e3069]: つぐみ製陶所 - tsugumi ceramics studio
+                              - generic [ref=e3071]:
+                                - link "@potter_y" [ref=e3073]:
+                                  - /url: /potter_y
+                                  - generic [ref=e3074]: "@potter_y"
+                                - generic [ref=e3075]: ·
+                                - link "15 秒前" [ref=e3077]:
+                                  - /url: /potter_y/status/2041894612294627509
+                                  - time [ref=e3078]: 15秒
+                            - generic [ref=e3080]:
+                              - button "Grokのアクション" [ref=e3082]:
+                                - img [ref=e3087]
+                              - button "もっと見る" [ref=e3093]:
+                                - img [ref=e3097]
+                          - generic [ref=e3101]: タマムシとか蝶とかのメタリックな色が色素じゃなくて構造色なのは何となく理解できるけど、ウミウシみたいなマットな色も構造色なのは意外かも。 まあ鳥の青色も色素じゃなくて構造色みたいだし。 それにしても科学ニュースメディアを自称するならAIで作った事実じゃない画像を貼るのはどうなの…
+                          - generic "引用 ナゾロジー@科学ニュースメディア 認証済みアカウント @NazologyInfo 4月6日 ウミウシの色彩は「構造色」だったと判明 nazology.kusuguru.co.jp/archives/193750 ウミウシを「海の宝石」と喩えるのは、決して比喩ではなかったようです。独MPIはウミウシの皮膚には色素だけでなく、ナノ結晶による「構造色」が使われていることを発見。驚きの新事実です。 画像" [ref=e3102]:
+                            - generic [ref=e3103]:
+                              - generic [ref=e3104]: 引用
+                              - link "ナゾロジー@科学ニュースメディア 認証済みアカウント @NazologyInfo 4月6日 ウミウシの色彩は「構造色」だったと判明 nazology.kusuguru.co.jp/archives/193750 ウミウシを「海の宝石」と喩えるのは、決して比喩ではなかったようです。独MPIはウミウシの皮膚には色素だけでなく、ナノ結晶による「構造色」が使われていることを発見。驚きの新事実です。 画像" [ref=e3105]:
+                                - generic [ref=e3106]:
+                                  - generic [ref=e3124]:
+                                    - generic [ref=e3128]:
+                                      - generic [ref=e3130]: ナゾロジー@科学ニュースメディア
+                                      - img "認証済みアカウント" [ref=e3133]
+                                    - generic [ref=e3137]:
+                                      - generic [ref=e3140]: "@NazologyInfo"
+                                      - generic [ref=e3141]: ·
+                                      - generic "4月6日" [ref=e3144]:
+                                        - time [ref=e3145]: 4月6日
+                                  - generic [ref=e3147]:
+                                    - text: ウミウシの色彩は「構造色」だったと判明
+                                    - generic [ref=e3148]: nazology.kusuguru.co.jp/archives/193750
+                                    - text: ウミウシを「海の宝石」と喩えるのは、決して比喩ではなかったようです。独MPIはウミウシの皮膚には色素だけでなく、ナノ結晶による「構造色」が使われていることを発見。驚きの新事実です。
+                                  - link "画像" [ref=e3154]:
+                                    - /url: /NazologyInfo/status/2041063861067862409/photo/1
+                                    - generic "画像" [ref=e3158]:
+                                      - img "画像" [ref=e3160]
+                          - group [ref=e3163]:
+                            - button "0 件の返信。返信する" [ref=e3165]:
+                              - img [ref=e3169]
+                            - button "0 件のリポスト件。リポスト" [ref=e3176]:
+                              - img [ref=e3180]
+                            - button "0 件のいいね。いいねする" [ref=e3187]:
+                              - img [ref=e3191]
+                            - link "ポストアナリティクスを表示" [ref=e3198]:
+                              - /url: /potter_y/status/2041894612294627509/analytics
+                              - img [ref=e3202]
+                            - button "ブックマーク" [ref=e3206]:
+                              - img [ref=e3210]
+                            - button "ポストを共有" [ref=e3215]:
+                              - img [ref=e3219]
+                    - 'article "ファイナルフロンティア @finalfrontierjp 1 分前 【 #ITニュース 】全盲の4人、AIで「映像監督」に音から広がるイメージを生成AIでMV化 #映像監督 #ITmedia itmedia.co.jp 全盲の4人、AIで「映像監督」に 音から広がるイメージを生成AIでMV化 itmedia.co.jpから" [ref=e3225] [cursor=pointer]':
+                      - generic [ref=e3231]:
+                        - link [ref=e3243]:
+                          - /url: /finalfrontierjp
+                        - generic [ref=e3246]:
+                          - generic [ref=e3248]:
+                            - generic [ref=e3251]:
+                              - link "ファイナルフロンティア" [ref=e3254]:
+                                - /url: /finalfrontierjp
+                                - generic [ref=e3257]: ファイナルフロンティア
+                              - generic [ref=e3259]:
+                                - link "@finalfrontierjp" [ref=e3261]:
+                                  - /url: /finalfrontierjp
+                                  - generic [ref=e3262]: "@finalfrontierjp"
+                                - generic [ref=e3263]: ·
+                                - link "1 分前" [ref=e3265]:
+                                  - /url: /finalfrontierjp/status/2041894236665340379
+                                  - time [ref=e3266]: 1分
+                            - generic [ref=e3268]:
+                              - button "Grokのアクション" [ref=e3270]:
+                                - img [ref=e3275]
+                              - button "もっと見る" [ref=e3281]:
+                                - img [ref=e3285]
+                          - generic [ref=e3289]:
+                            - text: 【
+                            - link "#ITニュース" [ref=e3291]:
+                              - /url: /hashtag/ITニュース?src=hashtag_click
+                            - text: 】全盲の4人、AIで「映像監督」に音から広がるイメージを生成AIでMV化
+                            - link "#映像監督" [ref=e3293]:
+                              - /url: /hashtag/映像監督?src=hashtag_click
+                            - link "#ITmedia" [ref=e3295]:
+                              - /url: /hashtag/ITmedia?src=hashtag_click
+                          - generic "itmedia.co.jp 全盲の4人、AIで「映像監督」に 音から広がるイメージを生成AIでMV化" [ref=e3296]:
+                            - generic "itmedia.co.jp 全盲の4人、AIで「映像監督」に 音から広がるイメージを生成AIでMV化" [ref=e3297]:
+                              - link "itmedia.co.jp 全盲の4人、AIで「映像監督」に 音から広がるイメージを生成AIでMV化" [ref=e3299]:
+                                - /url: https://t.co/grG85V6Xhg
+                                - generic [ref=e3305]:
+                                  - generic:
+                                    - generic: 全盲の4人、AIで「映像監督」に 音から広がるイメージを生成AIでMV化
+                            - link "itmedia.co.jpから" [ref=e3308]:
+                              - /url: https://t.co/grG85V6Xhg
+                          - group [ref=e3311]:
+                            - button "0 件の返信。返信する" [ref=e3313]:
+                              - img [ref=e3317]
+                            - button "0 件のリポスト件。リポスト" [ref=e3324]:
+                              - img [ref=e3328]
+                            - button "0 件のいいね。いいねする" [ref=e3335]:
+                              - img [ref=e3339]
+                            - link "ポストアナリティクスを表示" [ref=e3346]:
+                              - /url: /finalfrontierjp/status/2041894236665340379/analytics
+                              - img [ref=e3350]
+                            - button "ブックマーク" [ref=e3354]:
+                              - img [ref=e3358]
+                            - button "ポストを共有" [ref=e3363]:
+                              - img [ref=e3367]
+                    - article "アカヌマカズヤ＠焼肉とAIの人 認証済みアカウント @kazuya_aka 7 分前 今日の最新AIニュース ・【日本政府】新たな「AI戦略2024」を発表。国産大規模言語モデル（LLM）開発への補助金を大幅拡充し、国際競争力向上を強力に推進します。 ・【NTT/NEC】国内大手2社が生成AI分野で戦略的提携。次世代国産AI基盤「Kizuna 1 件の返信、10 件の表示" [ref=e3373] [cursor=pointer]:
+                      - generic [ref=e3379]:
+                        - link [ref=e3391]:
+                          - /url: /kazuya_aka
+                        - generic [ref=e3394]:
+                          - generic [ref=e3396]:
+                            - generic [ref=e3399]:
+                              - link "アカヌマカズヤ＠焼肉とAIの人 認証済みアカウント" [ref=e3402]:
+                                - /url: /kazuya_aka
+                                - generic [ref=e3403]:
+                                  - generic [ref=e3405]: アカヌマカズヤ＠焼肉とAIの人
+                                  - img "認証済みアカウント" [ref=e3408]
+                              - generic [ref=e3412]:
+                                - link "@kazuya_aka" [ref=e3414]:
+                                  - /url: /kazuya_aka
+                                  - generic [ref=e3415]: "@kazuya_aka"
+                                - generic [ref=e3416]: ·
+                                - link "7 分前" [ref=e3418]:
+                                  - /url: /kazuya_aka/status/2041892886002737523
+                                  - time [ref=e3419]: 7分
+                            - generic [ref=e3421]:
+                              - button "Grokのアクション" [ref=e3423]:
+                                - img [ref=e3428]
+                              - button "もっと見る" [ref=e3434]:
+                                - img [ref=e3438]
+                          - generic [ref=e3441]:
+                            - generic [ref=e3442]: 今日の最新AIニュース ・【日本政府】新たな「AI戦略2024」を発表。国産大規模言語モデル（LLM）開発への補助金を大幅拡充し、国際競争力向上を強力に推進します。 ・【NTT/NEC】国内大手2社が生成AI分野で戦略的提携。次世代国産AI基盤「Kizuna
+                            - button "さらに表示" [ref=e3443]
+                          - group "1 件の返信、10 件の表示" [ref=e3446]:
+                            - button "1 件の返信。返信する" [ref=e3448]:
+                              - generic [ref=e3449]:
+                                - img [ref=e3452]
+                                - generic [ref=e3457]: "1"
+                            - button "0 件のリポスト件。リポスト" [ref=e3459]:
+                              - img [ref=e3463]
+                            - button "0 件のいいね。いいねする" [ref=e3470]:
+                              - img [ref=e3474]
+                            - link "10 件の表示。ポストアナリティクスを表示" [ref=e3481]:
+                              - /url: /kazuya_aka/status/2041892886002737523/analytics
+                              - generic [ref=e3482]:
+                                - img [ref=e3485]
+                                - generic [ref=e3490]: "10"
+                            - button "ブックマーク" [ref=e3492]:
+                              - img [ref=e3496]
+                            - button "ポストを共有" [ref=e3501]:
+                              - img [ref=e3505]
+                    - article "fujito/生成AIニュース＋/generative AI/AI活用/AI技術/テクノロジー 認証済みアカウント @fujito_AI_note 8 分前 まいどです。 本日の生成AIニュース+テクノロジー情報です。 note.com/toshia_fuji/n/ 『HappyHorse-1.0』『Runway+Seedance 2.0』『ACE-Step-1.5-xl』『FLUX.2 Small note.com 【生成AIニュース+】『HappyHorse-1.0』『Runway+Seedance 2.0』『ACE-Step-1.5-xl』『FLUX.2 Small Decoder』『Anima』『IN... note.comから" [ref=e3511] [cursor=pointer]:
+                      - generic [ref=e3517]:
+                        - link [ref=e3529]:
+                          - /url: /fujito_AI_note
+                        - generic [ref=e3532]:
+                          - generic [ref=e3534]:
+                            - generic [ref=e3537]:
+                              - link "fujito/生成AIニュース＋/generative AI/AI活用/AI技術/テクノロジー 認証済みアカウント" [ref=e3540]:
+                                - /url: /fujito_AI_note
+                                - generic [ref=e3541]:
+                                  - generic [ref=e3543]: fujito/生成AIニュース＋/generative AI/AI活用/AI技術/テクノロジー
+                                  - img "認証済みアカウント" [ref=e3546]
+                              - generic [ref=e3550]:
+                                - link "@fujito_AI_note" [ref=e3552]:
+                                  - /url: /fujito_AI_note
+                                  - generic [ref=e3553]: "@fujito_AI_note"
+                                - generic [ref=e3554]: ·
+                                - link "8 分前" [ref=e3556]:
+                                  - /url: /fujito_AI_note/status/2041892630569857235
+                                  - time [ref=e3557]: 8分
+                            - generic [ref=e3559]:
+                              - button "Grokのアクション" [ref=e3561]:
+                                - img [ref=e3566]
+                              - button "もっと見る" [ref=e3572]:
+                                - img [ref=e3576]
+                          - generic [ref=e3579]:
+                            - generic [ref=e3580]:
+                              - text: まいどです。 本日の生成AIニュース+テクノロジー情報です。
+                              - link "note.com/toshia_fuji/n/" [ref=e3581]:
+                                - /url: https://t.co/wEsszzl6ss
+                                - text: note.com/toshia_fuji/n/ …
+                              - text: 『HappyHorse-1.0』『Runway+Seedance 2.0』『ACE-Step-1.5-xl』『FLUX.2 Small
+                            - button "さらに表示" [ref=e3582]
+                          - generic "note.com 【生成AIニュース+】『HappyHorse-1.0』『Runway+Seedance 2.0』『ACE-Step-1.5-xl』『FLUX.2 Small Decoder』『Anima』『IN..." [ref=e3583]:
+                            - generic "note.com 【生成AIニュース+】『HappyHorse-1.0』『Runway+Seedance 2.0』『ACE-Step-1.5-xl』『FLUX.2 Small Decoder』『Anima』『IN..." [ref=e3584]:
+                              - link "note.com 【生成AIニュース+】『HappyHorse-1.0』『Runway+Seedance 2.0』『ACE-Step-1.5-xl』『FLUX.2 Small Decoder』『Anima』『IN..." [ref=e3586]:
+                                - /url: https://t.co/wEsszzl6ss
+                                - generic [ref=e3592]:
+                                  - generic:
+                                    - generic: 【生成AIニュース+】『HappyHorse-1.0』『Runway+Seedance 2.0』『ACE-Step-1.5-xl』『FLUX.2 Small Decoder』『Anima』『IN...
+                            - link "note.comから" [ref=e3595]:
+                              - /url: https://t.co/wEsszzl6ss
+                          - group "41 件の表示" [ref=e3598]:
+                            - button "0 件の返信。返信する" [ref=e3600]:
+                              - img [ref=e3604]
+                            - button "0 件のリポスト件。リポスト" [ref=e3611]:
+                              - img [ref=e3615]
+                            - button "0 件のいいね。いいねする" [ref=e3622]:
+                              - img [ref=e3626]
+                            - link "41 件の表示。ポストアナリティクスを表示" [ref=e3633]:
+                              - /url: /fujito_AI_note/status/2041892630569857235/analytics
+                              - generic [ref=e3634]:
+                                - img [ref=e3637]
+                                - generic [ref=e3642]: "41"
+                            - button "ブックマーク" [ref=e3644]:
+                              - img [ref=e3648]
+                            - button "ポストを共有" [ref=e3653]:
+                              - img [ref=e3657]
+                    - article "珠海すみれ 🍀 @tamami_smile_vt 9 分前 最初見て「すげー」ってなったけど、何回か見てたら「Mythosがすごいのはもうわかったから早くMythos2を発表してくれ、3日以内に頼む」みたいな気持ちになってきた 久しぶりの大ニュースのはずなのにAIの進化への渇きが癒えない AIの成長遅すぎる…… 引用 今井翔太 / Shota Imai@えるエル 認証済みアカウント @ImAI_Eruel 14 時間前 先ほどAnthropicから先日リークされていたClaude Mythosの性能が公開されましたが、少なくともベンチマーク上では、本当に久しぶりの飛躍的進歩と言っていいレベルだと思います。 Anthtopicが「性能が高すぎてセキュリティ危機が起きる」と懸念していたのもなるほど納得。 画像 画像" [ref=e3663] [cursor=pointer]:
+                      - generic [ref=e3669]:
+                        - link [ref=e3681]:
+                          - /url: /tamami_smile_vt
+                        - generic [ref=e3684]:
+                          - generic [ref=e3686]:
+                            - generic [ref=e3689]:
+                              - link "珠海すみれ 🍀" [ref=e3692]:
+                                - /url: /tamami_smile_vt
+                                - generic [ref=e3695]:
+                                  - text: 珠海すみれ
+                                  - img "🍀" [ref=e3696]
+                              - generic [ref=e3698]:
+                                - link "@tamami_smile_vt" [ref=e3700]:
+                                  - /url: /tamami_smile_vt
+                                  - generic [ref=e3701]: "@tamami_smile_vt"
+                                - generic [ref=e3702]: ·
+                                - link "9 分前" [ref=e3704]:
+                                  - /url: /tamami_smile_vt/status/2041892242374455767
+                                  - time [ref=e3705]: 9分
+                            - generic [ref=e3707]:
+                              - button "Grokのアクション" [ref=e3709]:
+                                - img [ref=e3714]
+                              - button "もっと見る" [ref=e3720]:
+                                - img [ref=e3724]
+                          - generic [ref=e3728]: 最初見て「すげー」ってなったけど、何回か見てたら「Mythosがすごいのはもうわかったから早くMythos2を発表してくれ、3日以内に頼む」みたいな気持ちになってきた 久しぶりの大ニュースのはずなのにAIの進化への渇きが癒えない AIの成長遅すぎる……
+                          - generic "引用 今井翔太 / Shota Imai@えるエル 認証済みアカウント @ImAI_Eruel 14 時間前 先ほどAnthropicから先日リークされていたClaude Mythosの性能が公開されましたが、少なくともベンチマーク上では、本当に久しぶりの飛躍的進歩と言っていいレベルだと思います。 Anthtopicが「性能が高すぎてセキュリティ危機が起きる」と懸念していたのもなるほど納得。 画像 画像" [ref=e3729]:
+                            - generic [ref=e3730]:
+                              - generic [ref=e3731]: 引用
+                              - link "今井翔太 / Shota Imai@えるエル 認証済みアカウント @ImAI_Eruel 14 時間前 先ほどAnthropicから先日リークされていたClaude Mythosの性能が公開されましたが、少なくともベンチマーク上では、本当に久しぶりの飛躍的進歩と言っていいレベルだと思います。 Anthtopicが「性能が高すぎてセキュリティ危機が起きる」と懸念していたのもなるほど納得。 画像 画像" [ref=e3732]:
+                                - generic [ref=e3733]:
+                                  - generic [ref=e3751]:
+                                    - generic [ref=e3755]:
+                                      - generic [ref=e3757]: 今井翔太 / Shota Imai@えるエル
+                                      - img "認証済みアカウント" [ref=e3760]
+                                    - generic [ref=e3764]:
+                                      - generic [ref=e3767]: "@ImAI_Eruel"
+                                      - generic [ref=e3768]: ·
+                                      - generic "14 時間前" [ref=e3771]:
+                                        - time [ref=e3772]: 14時間
+                                  - generic [ref=e3774]: 先ほどAnthropicから先日リークされていたClaude Mythosの性能が公開されましたが、少なくともベンチマーク上では、本当に久しぶりの飛躍的進歩と言っていいレベルだと思います。 Anthtopicが「性能が高すぎてセキュリティ危機が起きる」と懸念していたのもなるほど納得。
+                                  - generic [ref=e3781]:
+                                    - link "画像" [ref=e3784]:
+                                      - /url: /ImAI_Eruel/status/2041670270772244918/photo/1
+                                      - generic "画像" [ref=e3786]:
+                                        - img "画像" [ref=e3788]
+                                    - link "画像" [ref=e3791]:
+                                      - /url: /ImAI_Eruel/status/2041670270772244918/photo/2
+                                      - generic "画像" [ref=e3793]:
+                                        - img "画像" [ref=e3795]
+                          - group "51 件の表示" [ref=e3798]:
+                            - button "0 件の返信。返信する" [ref=e3800]:
+                              - img [ref=e3804]
+                            - button "0 件のリポスト件。リポスト" [ref=e3811]:
+                              - img [ref=e3815]
+                            - button "0 件のいいね。いいねする" [ref=e3822]:
+                              - img [ref=e3826]
+                            - link "51 件の表示。ポストアナリティクスを表示" [ref=e3833]:
+                              - /url: /tamami_smile_vt/status/2041892242374455767/analytics
+                              - generic [ref=e3834]:
+                                - img [ref=e3837]
+                                - generic [ref=e3842]: "51"
+                            - button "ブックマーク" [ref=e3844]:
+                              - img [ref=e3848]
+                            - button "ポストを共有" [ref=e3853]:
+                              - img [ref=e3857]
+                    - 'article "すーさん(Kai)｜木村至信BANDさんと繋がる音楽と健康生活 認証済みアカウント @kaigara1020 10 分前 Xに新機能「写真エディター」 モザイクやテキスト挿入・AI編集など(Impress Watch) #Yahooニュース news.yahoo.co.jp Xに新機能「写真エディター」 モザイクやテキスト挿入・AI編集など（Impress Watch） - Yahoo!ニュース news.yahoo.co.jpから" [ref=e3863] [cursor=pointer]':
+                      - generic [ref=e3869]:
+                        - link [ref=e3881]:
+                          - /url: /kaigara1020
+                        - generic [ref=e3884]:
+                          - generic [ref=e3886]:
+                            - generic [ref=e3889]:
+                              - link "すーさん(Kai)｜木村至信BANDさんと繋がる音楽と健康生活 認証済みアカウント" [ref=e3892]:
+                                - /url: /kaigara1020
+                                - generic [ref=e3893]:
+                                  - generic [ref=e3895]: すーさん(Kai)｜木村至信BANDさんと繋がる音楽と健康生活
+                                  - img "認証済みアカウント" [ref=e3898]
+                              - generic [ref=e3902]:
+                                - link "@kaigara1020" [ref=e3904]:
+                                  - /url: /kaigara1020
+                                  - generic [ref=e3905]: "@kaigara1020"
+                                - generic [ref=e3906]: ·
+                                - link "10 分前" [ref=e3908]:
+                                  - /url: /kaigara1020/status/2041891942871789889
+                                  - time [ref=e3909]: 10分
+                            - generic [ref=e3911]:
+                              - button "Grokのアクション" [ref=e3913]:
+                                - img [ref=e3918]
+                              - button "もっと見る" [ref=e3924]:
+                                - img [ref=e3928]
+                          - generic [ref=e3932]:
+                            - text: Xに新機能「写真エディター」 モザイクやテキスト挿入・AI編集など(Impress Watch)
+                            - link "#Yahooニュース" [ref=e3934]:
+                              - /url: /hashtag/Yahooニュース?src=hashtag_click
+                          - generic "news.yahoo.co.jp Xに新機能「写真エディター」 モザイクやテキスト挿入・AI編集など（Impress Watch） - Yahoo!ニュース" [ref=e3935]:
+                            - generic "news.yahoo.co.jp Xに新機能「写真エディター」 モザイクやテキスト挿入・AI編集など（Impress Watch） - Yahoo!ニュース" [ref=e3936]:
+                              - link "news.yahoo.co.jp Xに新機能「写真エディター」 モザイクやテキスト挿入・AI編集など（Impress Watch） - Yahoo!ニュース" [ref=e3938]:
+                                - /url: https://t.co/kKDB8qxoRL
+                                - generic [ref=e3944]:
+                                  - generic:
+                                    - generic: Xに新機能「写真エディター」 モザイクやテキスト挿入・AI編集など（Impress Watch） - Yahoo!ニュース
+                            - link "news.yahoo.co.jpから" [ref=e3947]:
+                              - /url: https://t.co/kKDB8qxoRL
+                          - group "7 件の表示" [ref=e3950]:
+                            - button "0 件の返信。返信する" [ref=e3952]:
+                              - img [ref=e3956]
+                            - button "0 件のリポスト件。リポスト" [ref=e3963]:
+                              - img [ref=e3967]
+                            - button "0 件のいいね。いいねする" [ref=e3974]:
+                              - img [ref=e3978]
+                            - link "7 件の表示。ポストアナリティクスを表示" [ref=e3985]:
+                              - /url: /kaigara1020/status/2041891942871789889/analytics
+                              - generic [ref=e3986]:
+                                - img [ref=e3989]
+                                - generic [ref=e3994]: "7"
+                            - button "ブックマーク" [ref=e3996]:
+                              - img [ref=e4000]
+                            - button "ポストを共有" [ref=e4005]:
+                              - img [ref=e4009]
+  - generic:
+    - img
+  - generic:
+    - img

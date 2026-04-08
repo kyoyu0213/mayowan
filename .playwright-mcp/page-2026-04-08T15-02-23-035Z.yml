@@ -1,0 +1,428 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - heading "キーボードショートカットを表示するには、はてなマークを押してください。 キーボードショートカットを表示" [level=2] [ref=e3]:
+          - generic [ref=e4]: キーボードショートカットを表示するには、はてなマークを押してください。
+          - link "キーボードショートカットを表示" [ref=e5] [cursor=pointer]:
+            - /url: /i/keyboard_shortcuts
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - tooltip "話題を検索":
+                  - generic: 話題を検索
+        - generic [ref=e6]:
+          - button "ホームタイムラインに移動" [ref=e979] [cursor=pointer]
+          - button "トレンドに移動" [ref=e981] [cursor=pointer]
+          - banner [ref=e11]:
+            - generic [ref=e13]:
+              - generic [ref=e14]:
+                - heading "X" [level=1] [ref=e16] [cursor=pointer]:
+                  - link "X" [ref=e17]:
+                    - /url: /home
+                    - img [ref=e19]
+                - navigation "メインメニュー" [ref=e23]:
+                  - link "ホーム" [ref=e24] [cursor=pointer]:
+                    - /url: /home
+                    - img [ref=e983]
+                  - link "調べたいものを検索" [active] [ref=e30] [cursor=pointer]:
+                    - /url: /explore
+                    - img [ref=e986]
+                  - link "通知" [ref=e36] [cursor=pointer]:
+                    - /url: /notifications
+                    - img [ref=e39]
+                  - link "フォローする" [ref=e42] [cursor=pointer]:
+                    - /url: /i/connect_people
+                    - img [ref=e45]
+                  - link "ダイレクトメッセージ" [ref=e48] [cursor=pointer]:
+                    - /url: /i/chat
+                    - img [ref=e51]
+                  - link "Grok" [ref=e54] [cursor=pointer]:
+                    - /url: /i/grok
+                    - generic [ref=e56]:
+                      - img [ref=e57]
+                      - generic "undefined件の未読項目" [ref=e60]
+                  - link "ブックマーク" [ref=e61] [cursor=pointer]:
+                    - /url: /i/bookmarks
+                    - img [ref=e64]
+                  - link "クリエイタースタジオ" [ref=e67] [cursor=pointer]:
+                    - /url: /i/jf/creators/studio
+                    - img [ref=e70]
+                  - link "プレミアム" [ref=e73] [cursor=pointer]:
+                    - /url: /i/premium_sign_up
+                    - img [ref=e76]
+                  - link "プロフィール" [ref=e79] [cursor=pointer]:
+                    - /url: /mamagori002
+                    - img [ref=e82]
+                  - button "その他のメニュー項目" [ref=e85] [cursor=pointer]:
+                    - img [ref=e88]
+                - link "ポストする" [ref=e92] [cursor=pointer]:
+                  - /url: /compose/post
+                  - img [ref=e94]
+              - button "アカウントメニュー" [ref=e99] [cursor=pointer]:
+                - generic [ref=e107]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "怪盗ダンディー":
+                          - img "怪盗ダンディー"
+          - main [ref=e110]:
+            - generic "ホームタイムライン" [ref=e992]:
+              - generic [ref=e993]:
+                - generic [ref=e994]:
+                  - generic [ref=e999]:
+                    - search "検索" [ref=e1005]:
+                      - generic [ref=e1010]:
+                        - img [ref=e1012]
+                        - combobox "検索クエリ" [ref=e1017]
+                    - link "設定" [ref=e1019] [cursor=pointer]:
+                      - /url: /settings/explore
+                      - img [ref=e1021]
+                  - navigation [ref=e1025]:
+                    - generic [ref=e1026]:
+                      - generic:
+                        - button "前" [disabled]:
+                          - generic:
+                            - img
+                      - tablist [ref=e1028]:
+                        - tab "おすすめ" [selected] [ref=e1029] [cursor=pointer]:
+                          - generic [ref=e1032]: おすすめ
+                        - tab "トレンド" [ref=e1034] [cursor=pointer]:
+                          - generic [ref=e1037]: トレンド
+                        - tab "ニュース" [ref=e1038] [cursor=pointer]:
+                          - generic [ref=e1041]: ニュース
+                        - tab "スポーツ" [ref=e1042] [cursor=pointer]:
+                          - generic [ref=e1045]: スポーツ
+                        - tab "エンターテイメント" [ref=e1046] [cursor=pointer]:
+                          - generic [ref=e1049]: エンターテイメント
+                      - generic:
+                        - button "次へ" [disabled]:
+                          - generic:
+                            - img
+                - generic:
+                  - generic:
+                    - status:
+                      - button:
+                        - generic:
+                          - img
+                          - generic: 新しいポストを表示
+              - region "話題を検索" [ref=e1051]:
+                - heading "話題を検索" [level=1] [ref=e1052]
+                - 'generic "タイムライン: 話題を検索" [ref=e1053]':
+                  - generic [ref=e1054]:
+                    - heading "本日のニュース" [level=2] [ref=e1059]:
+                      - generic [ref=e1060]: 本日のニュース
+                    - link "令和8年度予算122兆円超が参院で可決・成立、過去最大規模 2日前 · その他 · 493,558件のポスト" [ref=e1064] [cursor=pointer]:
+                      - generic [ref=e1067]:
+                        - generic [ref=e1068]: 令和8年度予算122兆円超が参院で可決・成立、過去最大規模
+                        - generic [ref=e1107]: 2日前 · その他 · 493,558件のポスト
+                    - link "ドジャース14-2でブルージェイズ圧倒、大谷シーズン3号で4試合連続アーチ 2日前 · その他 · 84,275件のポスト" [ref=e1111] [cursor=pointer]:
+                      - generic [ref=e1114]:
+                        - generic [ref=e1115]: ドジャース14-2でブルージェイズ圧倒、大谷シーズン3号で4試合連続アーチ
+                        - generic [ref=e1154]: 2日前 · その他 · 84,275件のポスト
+                    - link "サカナクション山口一郎、オールナイトニッポン初回で番組名ミスも大反響 1日前 · エンターテイメント · 21,725件のポスト" [ref=e1158] [cursor=pointer]:
+                      - generic [ref=e1161]:
+                        - generic [ref=e1162]: サカナクション山口一郎、オールナイトニッポン初回で番組名ミスも大反響
+                        - generic [ref=e1201]: 1日前 · エンターテイメント · 21,725件のポスト
+                    - link "日本のトレンド 予約予定 もっと見る" [ref=e1208] [cursor=pointer]:
+                      - generic [ref=e1209]:
+                        - generic [ref=e1211]: 日本のトレンド
+                        - generic [ref=e1212]: 予約予定
+                        - button "もっと見る" [ref=e1215]:
+                          - img [ref=e1219]
+                    - link "スポーツ · トレンド どらほー もっと見る" [ref=e1225] [cursor=pointer]:
+                      - generic [ref=e1226]:
+                        - generic [ref=e1228]: スポーツ · トレンド
+                        - generic [ref=e1229]: どらほー
+                        - button "もっと見る" [ref=e1232]:
+                          - img [ref=e1236]
+                    - 'link "ゲーム · トレンド #アークナイツ春感謝祭2026 もっと見る" [ref=e1242] [cursor=pointer]':
+                      - generic [ref=e1243]:
+                        - generic [ref=e1245]: ゲーム · トレンド
+                        - generic [ref=e1247]: "#アークナイツ春感謝祭2026"
+                        - button "もっと見る" [ref=e1250]:
+                          - img [ref=e1254]
+                    - 'link "日本のトレンド #月夜行路 もっと見る" [ref=e1260] [cursor=pointer]':
+                      - generic [ref=e1261]:
+                        - generic [ref=e1263]: 日本のトレンド
+                        - generic [ref=e1265]: "#月夜行路"
+                        - button "もっと見る" [ref=e1268]:
+                          - img [ref=e1272]
+                    - link "アート・カルチャー · トレンド やあまくさー もっと見る" [ref=e1278] [cursor=pointer]:
+                      - generic [ref=e1279]:
+                        - generic [ref=e1281]: アート・カルチャー · トレンド
+                        - generic [ref=e1282]: やあまくさー
+                        - button "もっと見る" [ref=e1285]:
+                          - img [ref=e1289]
+                    - 'link "音楽 · トレンド #ボーダレス もっと見る" [ref=e1295] [cursor=pointer]':
+                      - generic [ref=e1296]:
+                        - generic [ref=e1298]: 音楽 · トレンド
+                        - generic [ref=e1300]: "#ボーダレス"
+                        - button "もっと見る" [ref=e1303]:
+                          - img [ref=e1307]
+                    - 'link "音楽 · トレンド #うきなす入所10周年 もっと見る" [ref=e1313] [cursor=pointer]':
+                      - generic [ref=e1314]:
+                        - generic [ref=e1316]: 音楽 · トレンド
+                        - generic [ref=e1318]: "#うきなす入所10周年"
+                        - button "もっと見る" [ref=e1321]:
+                          - img [ref=e1325]
+                    - 'link "日本のトレンド #小澤愛実生誕祭2026 もっと見る" [ref=e1331] [cursor=pointer]':
+                      - generic [ref=e1332]:
+                        - generic [ref=e1334]: 日本のトレンド
+                        - generic [ref=e1336]: "#小澤愛実生誕祭2026"
+                        - button "もっと見る" [ref=e1339]:
+                          - img [ref=e1343]
+                    - 'link "人気の画像 · トレンド #爆誕していく2026 もっと見る" [ref=e1349] [cursor=pointer]':
+                      - generic [ref=e1350]:
+                        - generic [ref=e1352]: 人気の画像 · トレンド
+                        - generic [ref=e1354]: "#爆誕していく2026"
+                        - button "もっと見る" [ref=e1357]:
+                          - img [ref=e1361]
+                    - 'link "日本のトレンド #すにすて100の質問 もっと見る" [ref=e1367] [cursor=pointer]':
+                      - generic [ref=e1368]:
+                        - generic [ref=e1370]: 日本のトレンド
+                        - generic [ref=e1372]: "#すにすて100の質問"
+                        - button "もっと見る" [ref=e1375]:
+                          - img [ref=e1379]
+                    - 'link "日本のトレンド #オタギャル もっと見る" [ref=e1385] [cursor=pointer]':
+                      - generic [ref=e1386]:
+                        - generic [ref=e1388]: 日本のトレンド
+                        - generic [ref=e1390]: "#オタギャル"
+                        - button "もっと見る" [ref=e1393]:
+                          - img [ref=e1397]
+                    - 'link "日本のトレンド #平岡海月生誕祭 もっと見る" [ref=e1403] [cursor=pointer]':
+                      - generic [ref=e1404]:
+                        - generic [ref=e1406]: 日本のトレンド
+                        - generic [ref=e1408]: "#平岡海月生誕祭"
+                        - button "もっと見る" [ref=e1411]:
+                          - img [ref=e1415]
+                    - heading "おすすめユーザー" [level=2] [ref=e1422]:
+                      - generic [ref=e1423]: おすすめユーザー
+                    - button "ローソン 認証済みアカウント @akiko_lawson フォロー @akiko_lawson 【Lawson Japan official X】 ローソンクルー♪あきこです(^^)最新情報をマイペースでお知らせします。※なりすましアカウントにご注意ください。公式アカウントのIDは @akiko_lawson です。" [ref=e1427] [cursor=pointer]:
+                      - generic [ref=e1428]:
+                        - link [ref=e1438]:
+                          - /url: /akiko_lawson
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - generic [ref=e1441]:
+                          - generic [ref=e1442]:
+                            - generic [ref=e1444]:
+                              - link "ローソン 認証済みアカウント" [ref=e1446]:
+                                - /url: /akiko_lawson
+                                - generic [ref=e1447]:
+                                  - generic [ref=e1449]: ローソン
+                                  - img "認証済みアカウント" [ref=e1452]
+                              - link "@akiko_lawson" [ref=e1460]:
+                                - /url: /akiko_lawson
+                                - generic [ref=e1462]: "@akiko_lawson"
+                            - button "フォロー @akiko_lawson" [ref=e1464]:
+                              - generic [ref=e1467]: フォロー
+                          - generic [ref=e1468]:
+                            - text: 【Lawson Japan official X】 ローソンクルー♪あきこです(^^)最新情報をマイペースでお知らせします。※なりすましアカウントにご注意ください。公式アカウントのIDは
+                            - link "@akiko_lawson" [ref=e1471]:
+                              - /url: /akiko_lawson
+                            - text: です。
+                    - 'button "ばたもん＠フォロバ100怪しい垢以外さんとかなまる 🌠 ☄️ 🌌 （目眩、たちくらみさんがフォローしています プロジェクト・サンシャイン 認証済みアカウント @4K8AB フォロー @4K8AB Project SUNSHINE - Tokyo, Japan / love movies / favorite places: Agloe, NY & Binder, CA" [ref=e1475] [cursor=pointer]':
+                      - generic [ref=e1477]:
+                        - img [ref=e1479]
+                        - generic [ref=e1486]:
+                          - text: ばたもん＠フォロバ100怪しい垢以外さんとかなまる
+                          - img "🌠" [ref=e1487]
+                          - img "☄️" [ref=e1488]
+                          - img "🌌" [ref=e1489]
+                          - text: （目眩、たちくらみさんがフォローしています
+                      - generic [ref=e1490]:
+                        - link [ref=e1500]:
+                          - /url: /4K8AB
+                        - generic [ref=e1503]:
+                          - generic [ref=e1504]:
+                            - generic [ref=e1506]:
+                              - link "プロジェクト・サンシャイン 認証済みアカウント" [ref=e1508]:
+                                - /url: /4K8AB
+                                - generic [ref=e1509]:
+                                  - generic [ref=e1511]: プロジェクト・サンシャイン
+                                  - img "認証済みアカウント" [ref=e1514]
+                              - link "@4K8AB" [ref=e1519]:
+                                - /url: /4K8AB
+                                - generic [ref=e1521]: "@4K8AB"
+                            - button "フォロー @4K8AB" [ref=e1523]:
+                              - generic [ref=e1526]: フォロー
+                          - generic [ref=e1527]: "Project SUNSHINE - Tokyo, Japan / love movies / favorite places: Agloe, NY & Binder, CA"
+                    - button "五芒星さんと拳王さんがフォローしています Dice @イルーナ @Dicecat100 フォロー @Dicecat100 我が名は覇王Dice(๑•̀ㅁ•́๑)✧ IOS版イルーナを実装からやったり辞めたりせし者！ (異世界転生するならイルーナって決めてる)イルーナ民を題材にAI画像生成して遊んだりしてます★無断転載等オールオケ丸水産(っ ॑꒳ ॑c) 🐟" [ref=e1531] [cursor=pointer]:
+                      - generic [ref=e1533]:
+                        - img [ref=e1535]
+                        - generic [ref=e1542]: 五芒星さんと拳王さんがフォローしています
+                      - generic [ref=e1543]:
+                        - link [ref=e1553]:
+                          - /url: /Dicecat100
+                        - generic [ref=e1556]:
+                          - generic [ref=e1557]:
+                            - generic [ref=e1559]:
+                              - link "Dice @イルーナ" [ref=e1561]:
+                                - /url: /Dicecat100
+                                - generic [ref=e1564]: Dice @イルーナ
+                              - link "@Dicecat100" [ref=e1567]:
+                                - /url: /Dicecat100
+                                - generic [ref=e1569]: "@Dicecat100"
+                            - button "フォロー @Dicecat100" [ref=e1571]:
+                              - generic [ref=e1574]: フォロー
+                          - generic [ref=e1575]:
+                            - text: 我が名は覇王Dice(๑•̀ㅁ•́๑)✧ IOS版イルーナを実装からやったり辞めたりせし者！ (異世界転生するならイルーナって決めてる)イルーナ民を題材にAI画像生成して遊んだりしてます★無断転載等オールオケ丸水産(っ ॑꒳ ॑c)
+                            - img "🐟" [ref=e1576]
+                    - link "さらに表示" [ref=e1580] [cursor=pointer]:
+                      - /url: /i/connect_people
+                      - generic [ref=e1581]: さらに表示
+                    - heading "おすすめ投稿" [level=2] [ref=e1589]:
+                      - generic [ref=e1590]: おすすめ投稿
+                    - 'article "あんずわたあめ @abricotonlapin 6 時間前 1/20 #メカトロウィーゴ マジンガーコラボ・まじんがーぜっと＆ぼすぼろっと完成です 🎶 ②ぼすぼろっとの蛇腹の長い腕の造形が面白かったです。どちらも作っていて楽しかったです 🤗 ③恒例のおやつタイム まじんがー→あまおうフレーズ 🍓 ぼす→マスクメロンショート 🍈 ぼすが長い腕を利用して 画像 画像 画像 画像 10 件の返信、95 件のリポスト、623 件のいいね、4 件のブックマーク、3851 件の表示" [ref=e1594] [cursor=pointer]':
+                      - generic [ref=e1600]:
+                        - link [ref=e1612]:
+                          - /url: /abricotonlapin
+                        - generic [ref=e1615]:
+                          - generic [ref=e1617]:
+                            - generic [ref=e1620]:
+                              - link "あんずわたあめ" [ref=e1623]:
+                                - /url: /abricotonlapin
+                                - generic [ref=e1626]: あんずわたあめ
+                              - generic [ref=e1628]:
+                                - link "@abricotonlapin" [ref=e1630]:
+                                  - /url: /abricotonlapin
+                                  - generic [ref=e1631]: "@abricotonlapin"
+                                - generic [ref=e1632]: ·
+                                - link "6 時間前" [ref=e1634]:
+                                  - /url: /abricotonlapin/status/2041791748738052108
+                                  - time [ref=e1635]: 6時間
+                            - generic [ref=e1637]:
+                              - button "Grokのアクション" [ref=e1639]:
+                                - img [ref=e1644]
+                              - button "もっと見る" [ref=e1650]:
+                                - img [ref=e1654]
+                          - generic:
+                            - generic:
+                              - button
+                          - generic [ref=e1657]:
+                            - generic [ref=e1658]:
+                              - text: 1/20
+                              - link "#メカトロウィーゴ" [ref=e1660]:
+                                - /url: /hashtag/メカトロウィーゴ?src=hashtag_click
+                              - text: マジンガーコラボ・まじんがーぜっと＆ぼすぼろっと完成です
+                              - img "🎶" [ref=e1661]
+                              - text: ②ぼすぼろっとの蛇腹の長い腕の造形が面白かったです。どちらも作っていて楽しかったです
+                              - img "🤗" [ref=e1662]
+                              - text: ③恒例のおやつタイム まじんがー→あまおうフレーズ
+                              - img "🍓" [ref=e1663]
+                              - text: ぼす→マスクメロンショート
+                              - img "🍈" [ref=e1664]
+                              - text: ぼすが長い腕を利用して
+                            - button "さらに表示" [ref=e1665]
+                          - generic [ref=e1674]:
+                            - generic [ref=e1675]:
+                              - link "画像" [ref=e1678]:
+                                - /url: /abricotonlapin/status/2041791748738052108/photo/1
+                                - generic "画像" [ref=e1680]:
+                                  - img "画像" [ref=e1682]
+                              - link "画像" [ref=e1685]:
+                                - /url: /abricotonlapin/status/2041791748738052108/photo/2
+                                - generic "画像" [ref=e1687]:
+                                  - img "画像" [ref=e1689]
+                            - generic [ref=e1690]:
+                              - link "画像" [ref=e1693]:
+                                - /url: /abricotonlapin/status/2041791748738052108/photo/3
+                                - generic "画像" [ref=e1695]:
+                                  - img "画像" [ref=e1697]
+                              - link "画像" [ref=e1700]:
+                                - /url: /abricotonlapin/status/2041791748738052108/photo/4
+                                - generic "画像" [ref=e1702]:
+                                  - img "画像" [ref=e1704]
+                          - group "10 件の返信、95 件のリポスト、623 件のいいね、4 件のブックマーク、3851 件の表示" [ref=e1707]:
+                            - button "10 件の返信。返信する" [ref=e1709]:
+                              - generic [ref=e1710]:
+                                - img [ref=e1713]
+                                - generic [ref=e1718]: "10"
+                            - button "95 件のリポスト件。リポスト" [ref=e1720]:
+                              - generic [ref=e1721]:
+                                - img [ref=e1724]
+                                - generic [ref=e1729]: "95"
+                            - button "623 件のいいね。いいねする" [ref=e1731]:
+                              - generic [ref=e1732]:
+                                - img [ref=e1735]
+                                - generic [ref=e1740]: "623"
+                            - link "3851 件の表示。ポストアナリティクスを表示" [ref=e1742]:
+                              - /url: /abricotonlapin/status/2041791748738052108/analytics
+                              - generic [ref=e1743]:
+                                - img [ref=e1746]
+                                - generic [ref=e1751]: 3,851
+                            - button "ブックマーク" [ref=e1753]:
+                              - img [ref=e1757]
+                            - button "ポストを共有" [ref=e1762]:
+                              - img [ref=e1766]
+                    - article "ローソン 認証済みアカウント @akiko_lawson 16 時間前 5日間限定の無料券チャレンジ(^^) 今日はカフェラテ無料の1日目です♪ 1）このアカウントをフォロー 2）この投稿をリポスト 3）抽選で毎日1万名様に無料券！結果は自動でお知らせ lawson.co.jp キャンペーン詳細はこちら♪ lawson.co.jpから 408 件の返信、259430 件のリポスト、49231 件のいいね、1067 件のブックマーク、19525369 件の表示" [ref=e1772] [cursor=pointer]:
+                      - generic [ref=e1778]:
+                        - link "正方形のプロフィール画像" [ref=e1790]:
+                          - /url: /akiko_lawson
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic "正方形のプロフィール画像":
+                                  - img "正方形のプロフィール画像"
+                        - generic [ref=e1793]:
+                          - generic [ref=e1795]:
+                            - generic [ref=e1798]:
+                              - link "ローソン 認証済みアカウント" [ref=e1801]:
+                                - /url: /akiko_lawson
+                                - generic [ref=e1802]:
+                                  - generic [ref=e1804]: ローソン
+                                  - img "認証済みアカウント" [ref=e1807]
+                              - generic [ref=e1814]:
+                                - link "@akiko_lawson" [ref=e1816]:
+                                  - /url: /akiko_lawson
+                                  - generic [ref=e1817]: "@akiko_lawson"
+                                - generic [ref=e1818]: ·
+                                - link "16 時間前" [ref=e1820]:
+                                  - /url: /akiko_lawson/status/2041652249458303189
+                                  - time [ref=e1821]: 16時間
+                            - generic [ref=e1823]:
+                              - button "Grokのアクション" [ref=e1825]:
+                                - img [ref=e1830]
+                              - button "もっと見る" [ref=e1836]:
+                                - img [ref=e1840]
+                          - generic [ref=e1844]: 5日間限定の無料券チャレンジ(^^) 今日はカフェラテ無料の1日目です♪ 1）このアカウントをフォロー 2）この投稿をリポスト 3）抽選で毎日1万名様に無料券！結果は自動でお知らせ
+                          - generic "lawson.co.jp キャンペーン詳細はこちら♪" [ref=e1845]:
+                            - generic "lawson.co.jp キャンペーン詳細はこちら♪" [ref=e1846]:
+                              - link "lawson.co.jp キャンペーン詳細はこちら♪" [ref=e1848]:
+                                - /url: https://www.lawson.co.jp/lab/tsuushin/art/1519596_4659.html
+                                - generic [ref=e1854]:
+                                  - generic:
+                                    - generic: キャンペーン詳細はこちら♪
+                            - link "lawson.co.jpから" [ref=e1857]:
+                              - /url: https://www.lawson.co.jp/lab/tsuushin/art/1519596_4659.html
+                          - group "408 件の返信、259430 件のリポスト、49231 件のいいね、1067 件のブックマーク、19525369 件の表示" [ref=e1860]:
+                            - button "408 件の返信。返信する" [ref=e1862]:
+                              - generic [ref=e1863]:
+                                - img [ref=e1866]
+                                - generic [ref=e1871]: "408"
+                            - button "259430 件のリポスト件。リポスト" [ref=e1873]:
+                              - generic [ref=e1874]:
+                                - img [ref=e1877]
+                                - generic [ref=e1882]: 25万
+                            - button "49231 件のいいね。いいねする" [ref=e1884]:
+                              - generic [ref=e1885]:
+                                - img [ref=e1888]
+                                - generic [ref=e1893]: 4.9万
+                            - link "19525369 件の表示。ポストアナリティクスを表示" [ref=e1895]:
+                              - /url: /akiko_lawson/status/2041652249458303189/analytics
+                              - generic [ref=e1896]:
+                                - img [ref=e1899]
+                                - generic [ref=e1904]: 1,952万
+                            - button "ブックマーク" [ref=e1906]:
+                              - img [ref=e1910]
+                            - button "ポストを共有" [ref=e1915]:
+                              - img [ref=e1919]
+  - generic:
+    - img
+  - generic:
+    - img
